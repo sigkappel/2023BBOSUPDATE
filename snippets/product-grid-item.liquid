@@ -519,8 +519,8 @@
           </div>
         {% endif %}
       </div>
-
-      {% unless recently_viewed or countdown_timer %}
+      
+      {% unless recently_viewed or countdown_timer or tags_str contains "auction" %}
         {% if enable_quickshop or atc_button %}
           {% comment %}
             Default button appearance and text
@@ -626,7 +626,6 @@
     </div>
   </div>
 
-
   {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
   {% unless tags_str contains "auction" %}
     {% if atc_button %}
@@ -637,5 +636,7 @@
         }
       </script>
     {% endif %}
-  {%endunless%}
+  {%endunless%} {%# sigisig - end unless #%}
+
+  
 </{{ element }}>
