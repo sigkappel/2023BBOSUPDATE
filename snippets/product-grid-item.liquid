@@ -362,7 +362,8 @@
               {% endif %}
             {% endif %}
   
-            <!-- Sigmundt custom edit remove product badge if it's an aution -->         
+
+      {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
       	{% assign tags_str = product.tags | join: ' ' %}
        {% unless tags_str contains "auction" %}
             {%
@@ -379,7 +380,9 @@
               include_range: true,
             %}
 
-         {% endunless %}}
+         
+
+
           </figure>
           {% render 'banana-stand-product-list-container', product: product %}
 </a>
@@ -402,6 +405,12 @@
           include_hidden_price: false,
         %}
       {%- endcapture -%}
+
+
+    {% endunless %} 
+    {%-- sigisig - end auction condition --%}
+
+
 
       <div class="productitem--info">
         {% unless countdown_timer %}
