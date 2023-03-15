@@ -626,12 +626,16 @@
     </div>
   </div>
 
-  {% if atc_button %}
-    <script type="application/json" data-quick-buy-settings>
-      {
-        "cart_redirection": {{ settings.enable_cart_redirection | json }},
-        "money_format": {{ shop.money_format | strip_html | json }}
-      }
-    </script>
-  {% endif %}
+
+  {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
+  {% unless tags_str contains "auction" %}
+    {% if atc_button %}
+      <script type="application/json" data-quick-buy-settings>
+        {
+          "cart_redirection": {{ settings.enable_cart_redirection | json }},
+          "money_format": {{ shop.money_format | strip_html | json }}
+        }
+      </script>
+    {% endif %}
+  {%endunless%}
 </{{ element }}>
