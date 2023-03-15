@@ -24,6 +24,10 @@
 {% assign atc_button = settings.product_grid_show_atc_button %}
 {% assign money_format = shop.money_format | strip_html %}
 
+{%# sigisig used to see if this product is on auction %}
+{% assign tags_str = product.tags | join: ' ' %}
+
+
 {% if product_compare %}
   {% assign enable_quickshop = false %}
   {% assign atc_button = true %}
@@ -364,7 +368,6 @@
   
 
       {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
-      {% assign tags_str = product.tags | join: ' ' %}
       {% unless tags_str contains "auction" %}
             {%
               render 'product-badge',
@@ -389,7 +392,7 @@
 
 
 {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
-      {% assign tags_str = product.tags | join: ' ' %}
+     
       {% unless tags_str contains "auction" %}
 
 
@@ -420,7 +423,6 @@
         {% endunless %}
 
         {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
-        {% assign tags_str = product.tags | join: ' ' %}
         {% unless tags_str contains "auction" %}
 
           {% if emphasize_price %}
@@ -450,7 +452,6 @@
 
 
         {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
-        {% assign tags_str = product.tags | join: ' ' %}
         {% unless tags_str contains "auction" %}
 
           {% unless emphasize_price %}
