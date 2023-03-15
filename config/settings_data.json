@@ -39,6 +39,8 @@
     "layout_max_width": 1400,
     "product_sales_badge": true,
     "product_sales_badge_style": "percentile",
+    "inventory_display": "all_products",
+    "low_stock_threshold": 1,
     "product_option_style": "select",
     "swatches_enable": true,
     "swatches_product_card_size": 20,
