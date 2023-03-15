@@ -406,10 +406,7 @@
       {%- endcapture -%}
 
 
-    {% endunless %} 
-    {%-- sigisig - end auction condition --%}
-
-
+   
 
       <div class="productitem--info">
         {% unless countdown_timer %}
@@ -425,6 +422,11 @@
             {{ product_title }}
           </a>
         </h2>
+
+      {% endunless %} 
+      {%-- sigisig - end auction condition --%}
+  
+  
 
         {% unless product_compare %}
           {% if settings.product_show_vendor and product.vendor != blank %}
