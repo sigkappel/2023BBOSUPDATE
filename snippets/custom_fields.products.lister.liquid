@@ -1,0 +1,18 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/big-box-outlet-store.myshopify.com/products/configure/24685/edit
+{% endcomment %}
+{% if product.metafields.custom_fields["lister"] != blank %}
+  <div class="custom-field custom-field__lister custom-field__type--text-list">
+    <h3 class="custom-field--title">Lister</h3>
+    <div class="custom-field--value">  
+      {% assign values = product.metafields.custom_fields["lister"] | split: "|" %}
+      <ul>
+      {% for value in values %}
+        <li>{{ value }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endif %}

@@ -1,0 +1,45 @@
+{% layout none %}
+
+{% if settings.product_grid_quick_look or settings.product_grid_quick_buy %}
+  {%- capture modal_html -%}
+    {%-
+      include 'product',
+      layout: false,
+      is_product_modal: true
+    -%}
+  {%- endcapture -%}
+  {% assign money_format = shop.money_format | strip_html %}
+
+  <div class="productitem-quickshop" data-product-quickshop="{{ product.id }}">
+    <script type="application/json" data-product-quickshop-data>
+      {
+        "settings": {
+          "cart_redirection": {{ settings.product_cart_redirect | json }},
+          "money_format": {{ money_format | json }}
+        },
+        "context": {
+          "product_available": {{ 'product.buttons.add_to_cart' | t | json }},
+          "product_unavailable": {{ 'product.buttons.sold_out' | t | json }}
+        },
+        "product": {{ product | json }}
+      }
+    </script>
+
+    <script
+        type="application/json"
+        data-product-quickshop-html
+      >
+        {{ modal_html | json }}
+      </script>
+  </div>
+
+  {% if settings.product_grid_quick_buy %}
+    <script type="application/json" data-quick-buy-settings>
+      {
+        "cart_redirection": {{ settings.product_cart_redirect | json }},
+        "money_format": {{ money_format | json }}
+      }
+    </script>
+  {% endif %}
+{% endif %}
+{% section 'custom-fields-products' %}

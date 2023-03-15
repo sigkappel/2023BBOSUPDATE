@@ -1,0 +1,8 @@
+{% if product.metafields.custom_fields["ebaycondition"] != blank %}
+  <div class="custom-field custom-field__ebaycondition custom-field__type--text-list">
+    <h3 class="custom-field--title">ebaycondition</h3>
+    <div class="custom-field--value">  
+      {{ product.metafields.custom_fields["ebaycondition"] }}
+    </div>
+  </div>
+{% endif %}

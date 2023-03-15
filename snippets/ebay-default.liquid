@@ -1,0 +1,275 @@
+<p>{defaultcss}</p>
+<div class="nojs" id="ebay-description">
+    <div class="container"><img class="logo fr-fic fr-dib" src="{CDNUrl}/images/logo.png?width=501&nostretch&etag={LogoEtag}"></div>
+    <div class="container">
+        <div class="block">
+            <div class="row">
+                <div class="span12">
+                    <h2>{Title}</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <!--startcodistodescription - DO NOT REMOVE-->{include field=&quot;EbayDescription&quot;}
+                    <!--endcodistodescription - DO NOT REMOVE-->
+                </div>
+            </div>
+            <!-- Custom Edit Sigmundt - Put in the metafield condition codes -->
+            <div class="row">
+                <div class="span12">{% if product.metafields.custom_fields[&quot;condition_class&quot;] != blank %}
+                    <div class="custom-field custom-field__condition-class custom-field__type--text-list">
+                        <h3 class="custom-field--title">Condition Class</h3>
+                        <div class="custom-field--value">{% assign values = product.metafields.custom_fields[&quot;condition_class&quot;] | split: &quot;|&quot; %}
+                            <ul>
+                                <li>{% for value in values %}</li>
+                                <li>{{ value }}</li>
+                                <li>{% endfor %}</li>
+                            </ul>
+                        </div>
+                    </div>{% endif %}</div>{% if product.metafields.custom_fields[&quot;condition_notes&quot;] != blank %}
+                <div class="custom-field custom-field__condition-notes custom-field__type--text-list">
+                    <h3 class="custom-field--title">Condition Notes</h3>
+                    <div class="custom-field--value">{% assign values = product.metafields.custom_fields[&quot;condition_notes&quot;] | split: &quot;|&quot; %}
+                        <ul>
+                            <li>{% for value in values %}</li>
+                            <li>{{ value }}</li>
+                            <li>{% endfor %}</li>
+                        </ul>
+                    </div>
+                </div>{% endif %} {% if product.metafields.custom_fields[&quot;condition_details&quot;] != blank %}
+                <div class="custom-field custom-field__condition-details custom-field__type--text">
+                    <h3 class="custom-field--title">Condition Details</h3>
+                    <div class="custom-field--value">{{ product.metafields.custom_fields[&quot;condition_details&quot;] }}</div>
+                </div>{% endif %}</div>
+            <!-- End of Custom Edit Sigmundt -->
+            <div class="row">
+                <div class="span12 text-center"><a href="#img1"><img class="logo fr-fic fr-dib" src="{CDNUrl}/productimages/{ProductID}.png?width=547&etag={etag}"></a> <a class="lightbox" href="#_" id="img1">&nbsp;<div class="close-img">&times;</div><img src="{CDNUrl}/productimages/{ProductID}.png?width=800&etag={etag}" class="fr-fic fr-dib"></a>                    {for images} <a class="lightbox" href="#_" id="img{position+1}">&nbsp;<div class="close-img">&times;</div><img src="{cdnurl}{images.src}&width=800&height=600&nostretch" class="fr-fic fr-dib"></a> {/for}
+                    <div class="clearfix"><br></div>{if count(images) &gt; 1}
+                    <hr>{/if} {for images step=4}
+                    <div class="row image-row text-left">{for Images count=4 start={position}}
+                        <div class="span2"><a class="image fancybox" href="#img{position+1}"><img src="{cdnurl}{images.src}&width=200&height=200" class="fr-fic fr-dib"></a></div>{/for}</div>{/for}<br>
+                    <div class="nojs" id="ebay-description">
+                        <div class="container">
+                            <div class="block">
+                                <div class="row">
+                                    <div class="span12 text-center">
+                                        <p style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 0px 0px 10px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; border: none; color: rgb(60, 60, 60); border-radius: 0px;">--</p>
+                                        <p style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 0px 0px 10px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; border: none; color: rgb(60, 60, 60); border-radius: 0px;">Welcome to our &#39;Big Box Outlet Store Canada&#39; on eBay!&nbsp;</p>
+                                        <div style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; margin: 0px 0px 10px; border: none; color: rgb(60, 60, 60); border-radius: 0px;">To make your purchase as simple and as easy as possible please refer to the store policies listed below:</div>
+                                        <div style="text-align: left; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; margin: 0px 0px 10px; border: none; color: rgb(60, 60, 60); border-radius: 0px;"><b style="font-size: 14px;">Payment:</b><span style="font-size: 14px;">&nbsp;We accept PayPal.&nbsp;</span>We will only send out items once a payment has been made.</div>
+                                        <p style="font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 0px 0px 10px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; border: none; color: rgb(60, 60, 60); border-radius: 0px;"><img src="https://ci3.googleusercontent.com/proxy/nCTxBci072_eb6H2VpyHPncEB2dOZ37RhkIrt12-ZStIDMMvwPItpeh65zobtLLZZccZKtoj4N0GbPVk1k-4I5rZW02igho9VIBp6jh0sV85W7ILFB9GRrIY=s0-d-e1-ft#https://i.frg.im/3gDpFpug/courier.jpg?r=fAI5xLC2nu6CmHd4D177Ul0LJ87a"
+                                                alt="" class="CToWUd a6T fr-fil fr-dib" tabindex="0" style="text-align: left; cursor: pointer; outline: 0px; height: auto; max-width: 100%; border: 0px; width: 162px; font-size: 12px; font-family: Varela, sans-serif; border-radius: 0px;"></p>
+                                        <p
+                                            style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 0px 0px 10px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; border: none; color: rgb(60, 60, 60); border-radius: 0px;"><span style="font-weight: 600;">Shipping</span>: We will ship your order out within two business days (48 hours) or sooner. After receiving payment (<span class="aBn" data-term="goog_1065932222" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Monday</span></span> through <span class="aBn" data-term="goog_1065932223" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Friday</span></span>). Any orders made after <span class="aBn" data-term="goog_1065932224" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">1:30 PM</span></span> on a <span class="aBn" data-term="goog_1065932225" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Friday</span></span> or during the weekend (<span class="aBn" data-term="goog_1065932226" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Saturday</span></span> &amp; <span class="aBn" data-term="goog_1065932227" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Sunday</span></span>), will be shipped out the following <span class="aBn" data-term="goog_1065932228" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;"
+                                                tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Monday</span></span>.&nbsp;</p>
+                                            <p style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; margin: 0px 0px 10px; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; border: none; color: rgb(60, 60, 60); border-radius: 0px;">Shipping time varies between 2 - 11 business days via Canada Post or USPS. We only ship to the shipping address that you input during checkout. If your address is not verified by PayPal, we might take additional
+                                                steps to verify your address. If we are unable to verify your address, we may try to contact you via email or phone to verify. If our efforts fail in making contact with you, your order may be canceled.
+                                                We are not responsible for wrong or undeliverable addresses, any additional shipping charges caused by an undeliverable parcel will be charged to the customer.<strong>&nbsp;</strong><u>SHIPPING TO CANADA OR USA ONLY.</u></p>
+                                            <div
+                                                style="text-align: left; font-size: 14px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; margin: 0px 0px 10px; border: none; color: rgb(60, 60, 60); border-radius: 0px;">We are located at 3057 Grandview Highway, Vancouver BC, V5M 2E4, Canada. For those who are local to the area and would like to pick&nbsp;up&nbsp;their order directly without using the shipping services we offer,
+                                                please contact us via email through eBay to arrange a pickup date and time.</div>
+                                    <div style="background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; font-family: Arial, Helvetica, Verdana, Tahoma, sans-serif; line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px;">
+                                        <div style="color: rgb(60, 60, 60); line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+                                            <div style="text-align: left; font-size: 14px; line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="font-weight: 600;">Customer Service:&nbsp;</span>If you have any questions regarding our listings or general product questions you are more than welcome to contact us via email through eBay during
+                                                our regular business hours (in PST): <span class="aBn" data-term="goog_1065932229" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;" tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Monday</span></span>
+                                                - <span class="aBn" data-term="goog_1065932230" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;" tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">Friday</span></span>:
+                                                &nbsp;9 <span class="aBn" data-term="goog_1065932231" style="border-bottom: 1px dashed rgb(204, 204, 204); position: relative; top: -2px; z-index: 0;" tabindex="0"><span class="aQJ" style="position: relative; top: 2px; z-index: -1;">AM - 4:30 PM.</span></span>
+                                            </div>
+                                        </div>
+                                        <div style="line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">
+                                            <div style="font-size: 14px; color: rgb(60, 60, 60); line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-origin: initial; background-clip: initial;"><img src="https://ci5.googleusercontent.com/proxy/sbA_aZBIiVoeJSQFWf4fcACxFwta4D_lZe-m6O-fQic7HLiWMF1kJHcVN-twd9_tlJ8AlIRKpZYOX9ZOl806sqpJRgBJL--0crGlA6b7FjIgXu-Vyab2Ml-pOFsUQNzfTgfPdZNfUZuKsLVF7jTLf9st46Dzo5QUVsJWwbje6IkstG4=s0-d-e1-ft#https://i.frg.im/Ujrlvj8d/2017-09-21-145605-inthenews1b082f803-cf0b-47ed-8e9e-33088b2e1f1fjpg-713294.jpg?r=pa"
+                                                    alt="" class="CToWUd a6T fr-fil fr-dib" tabindex="0" style="text-align: left; cursor: pointer; outline: 0px; height: auto; max-width: 100%; border: 0px; width: 183px; font-family: Varela, sans-serif; font-size: 12px; border-radius: 0px;"></div>
+                                            <div
+                                                style="text-align: left; font-size: 14px; color: rgb(60, 60, 60); line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">For more information regarding our store, please visit our about us page.</div>
+                                        <div style="text-align: left; font-size: 14px; color: rgb(60, 60, 60); line-height: 1.6em; margin: 0px 0px 10px; border: none; border-radius: 0px; background-image: none; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Thank you for your business &amp; happy shopping!&nbsp;</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span5 buy-now" style="text-align: left;"><br></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span5 buy-now">{if !MultiVariant} <a class="btn btn-large btn-primary" href="http://offer.{EbaySiteURL}/ws/eBayISAPI.dll?BinConfirm&quantity=1&fb=1&item={EbayItemID}" target="_blank">&nbsp;Buy now and save!</a> {/if}</div>
+            <div class="span7 buttons"><a class="btn btn" href="http://contact.{EbaySiteURL}/ws1/eBayISAPI.dll?ShowEmailAuctionToFriend&rt=nc&item={EbayItemID}" target="_blank">&nbsp;Tell a friend</a> {if EbayStoreURL} <a class="btn btn" href="{EbayStoreURL}" target="_blank">&nbsp;Visit store</a>                {/if} <a class="btn btn" href="http://cgi1.{EbaySiteURL}/ws/eBayISAPI.dll?MakeTrack&item={EbayItemID}" target="_blank">&nbsp;Watch now</a></div>
+        </div>
+    </div>
+</div>{if overviewhtml}
+<div class="container">
+    <div class="block">
+        <div class="row">
+            <div class="span12">
+                <h2>Overview</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span7">{include field=&quot;overviewhtml&quot;}</div>
+            <div class="span5">
+                <div class="quote">
+                    <p><a href="http://contact.{EbaySiteURL}/ws/eBayISAPI.dll?FindAnswers&requested={EbayUserID}&iid={EbayItemID}" target="_blank">Contact Us</a> for more details!</p>
+                </div>{for overview}&nbsp;<img src="{CDNUrl}{src}" class="fr-fic fr-dib">&nbsp;{/for}</div>
+        </div>
+    </div>
+</div>{/if} {if productspecshtml}
+<div class="container">
+    <div class="block">
+        <div class="row">
+            <div class="span12">
+                <h2>Product specification</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span6">{include field=&quot;productspecshtml&quot;}</div>
+            <div class="span6">{for specimage step=2}
+                <div class="row">{for specimage count=2 start={position}}
+                    <div class="span3"><a class="fancybox image" href="{CDNUrl}{specimage.src}"><img src="{CDNUrl}{specimage.src}" class="fr-fic fr-dib"></a></div>{/for}</div>{/for}</div>
+        </div>
+    </div>
+</div>{/if}
+<div class="container">
+    <div class="block">
+        <div class="row">
+            <div class="span12">
+                <h2>Postage {if ShippingDomesticServiceType = &quot;CalculatedMerchant&quot; AND ShippingQuoteSupported}calculator{else if ShippingDomesticServiceType = &quot;CalculatedEbay&quot; OR ShippingRateTable}info{else}costs{/if}</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="span4">{if ShippingDomesticServiceType = &quot;CalculatedMerchant&quot; AND ShippingQuoteSupported}
+                <div class="quote"><a class="postage-quote" href="https://codisto.com/cart/quote/?merchanttoken={MerchantToken}&emptycart=1&sku={ProductCode}" target="codisto!freightquote"><strong>Click here to get a postage quote</strong></a></div>{else}
+                <div class="quote">
+                    <p>Click the Postage tab above the listing description for more info</p>
+                </div>{/if}
+                <div class="quote {if ShippingDomesticServiceType = ">
+                    <p class="price"><strong>&nbsp;{if !ShippingRateTable} {if FlatShippingRate = 0 AND ShippingDomesticServiceType = &quot;Flat&quot;} FREE {if LocalPickupFirstOption}Local Pickup{else}Postage{/if} {else if ShippingDomesticServiceType = &quot;Flat&quot;} Price: <span class="freightprice">&nbsp;{if ShippingDomesticServiceType = &quot;Flat&quot;} {format FlatShippingRate, EbayCurrency} <small>(local shipping)</small> {/if}&nbsp;</span> {/if} {/if}&nbsp;</strong></p>
+                    <div
+                        style="text-align:center;">{if ShippingDomesticServiceType = &quot;Flat&quot; AND !ShippingRateTable} {if ShippingDomesticService2 OR ShippingInternationalService1} <span class="seemoreflat"><a href="#freightservices">See more...</a></span>
+                        <div class="moreservicesflat"
+                            id="freightservices">
+                            <div class="moreservicesflatcontent">{if ShippingDomesticService1}{ShippingDomesticService1} - <strong>{format ShippingDomesticCost1, EbayCurrency}</strong>{/if} {if ShippingDomesticService2}
+                                <hr>{ShippingDomesticService2} - <strong>{format ShippingDomesticCost2, EbayCurrency}</strong>{/if} {if ShippingDomesticService3}
+                                <hr>{ShippingDomesticService3} - <strong>{format ShippingDomesticCost3, EbayCurrency}</strong>{/if} {if ShippingDomesticService4}
+                                <hr>{ShippingDomesticService4} - <strong>{format ShippingDomesticCost4, EbayCurrency}</strong>{/if} {if ShippingInternationalService1}
+                                <hr>{ShippingInternationalService1} - <strong>{format ShippingInternationalCost1, EbayCurrency}</strong>{/if} {if ShippingInternationalService2}
+                                <hr>{ShippingInternationalService2} - <strong>{format ShippingInternationalCost2, EbayCurrency}</strong>{/if} {if ShippingInternationalService3}
+                                <hr>{ShippingInternationalService3} - <strong>{format ShippingInternationalCost3, EbayCurrency}</strong>{/if} {if ShippingInternationalService4}
+                                <hr>{ShippingInternationalService4} - <strong>{format ShippingInternationalCost4, EbayCurrency}</strong>{/if} {if ShippingInternationalService5}
+                                <hr>{ShippingInternationalService5} - <strong>{format ShippingInternationalCost5, EbayCurrency}</strong>{/if}</div>
+                        </div>{/if} {/if} {if ShippingDomesticServiceType = &quot;CalculatedEbay&quot; OR ShippingRateTable}
+                        <p>Click the Postage tab above the listing description for more info</p>{/if}</div>
+            </div>
+            <h3 class="icon"><img src="{CDNUrl}/ebay/images/icn-delivery.jpg" class="fr-fic fr-dib">Additional delivery notes</h3>{if PickupOption}
+            <p><strong>PICK UP OPTION</strong></p>
+            <p>Our items are available for pick-up. Pick up procedure is as follows:</p>
+            <ol>
+                <li>Purchase the item through eBay</li>
+                <li><a href="http://contact.{EbaySiteURL}/ws/eBayISAPI.dll?FindAnswers&requested={EbayUserID}&iid={EbayItemID}" target="_blank" title="Ask seller a question">Email us</a> to coordinate pickup</li>
+            </ol>{else}
+            <p><strong>PICK UP OPTION</strong></p>
+            <p>Sorry, our items are NOT available for pick-up.</p>{/if}</div>
+        <div class="span4">
+            <table>
+                <tbody>
+                    <tr>
+                        <td style="width: 50px;vertical-align: top;"><img src="{CDNUrl}/ebay/images/icn-paypal.jpg" class="fr-fic fr-dib"></td>
+                        <td>
+                            <h3 class="icon">PAYING VIA PAYPAL</h3>
+                        </td>
+                    </tr>
+                </tbody>
+            </table><br>
+            <p>We accept PayPal on our all our items so you can shop with confidence.</p>
+            <p>Simple choose the PayPal option when proceeding through the checkout.</p>{if ShippingDomesticServiceType = &quot;CalculatedMerchant&quot;}
+            <p>eBay should update your Freight cost into the checkout process once you have committed to purchase.</p>
+            <p>If checkout gets stuck and does not allow you to proceed, simply use your browser&#39;s Back button to return to the <strong><em>Pay Now</em></strong> option and try again.</p>{/if} {if MoneyOrderAccepted}
+            <h3 class="icon"><img src="{CDNUrl}/ebay/images/icn-moneyorder.jpg" class="fr-fic fr-dib">Paying via money order</h3>
+            <p>Simply add the freight cost to the item cost and forward the total amount to the address to be provided following your purchase.</p>{/if} {if DirectDepositAccepted}
+            <h3 class="icon"><img src="{CDNUrl}/ebay/images/icn-moneyorder.jpg" class="fr-fic fr-dib">Paying via Direct Deposit</h3>
+            <p>Simply add the freight cost to the item cost and forward the total amount to the address to be provided following your purchase.</p>{/if}</div>
+        <div class="span4">
+            <h3 class="icon"><img src="{CDNUrl}/ebay/images/icn-info.jpg" class="fr-fic fr-dib">Additional Information</h3>{if AdditionalInfo}
+            <p>{AdditionalInfo}</p>{else}
+            <p>No additional information at this time</p>{/if}
+            <p><a class="btn btn-info btn-large" href="http://contact.{EbaySiteURL}/ws/eBayISAPI.dll?FindAnswers&requested={EbayUserID}&iid={EbayItemID}" target="_blank">Ask seller a question</a></p>
+        </div>
+    </div>
+</div>
+</div>{if SuggestedProducts}
+<div class="container">
+    <div class="block" id="you_like">
+        <div class="row">
+            <div class="span12">
+                <h2>You might also like</h2>
+            </div>
+        </div>
+        <div class="row">{for SuggestedProducts}
+            <div class="span3">
+                <div class="imagecenter"><a href="http://cgi.{EbaySiteURL}/{EbayItemID}" target="_blank"><img src="{CDNUrl}/productimages/{ID}.jpg?width=170&height=170" class="fr-fic fr-dib"></a></div>
+                <h4><a href="http://cgi.{EbaySiteURL}/{EbayItemID}" target="_blank">{Name}</a></h4>
+            </div>{/for}</div>
+    </div>
+</div>{/if}
+<div class="container">
+    <div class="tabs">
+        <div class="tab"><input type="radio" id="tab-1" name="tab-group-1" checked="" value="on"><label for="tab-1" style="margin-left: 2px;">Contact</label>
+            <div class="content">
+                <div class="row">
+                    <div class="span6">
+                        <p>To contact our Customer Service Team, simply click the button here and our Customer Service team will be happy to assist.</p>
+                        <p><a class="btn btn-primary btn-large" href="http://contact.{EbaySiteURL}/ws/eBayISAPI.dll?FindAnswers&requested={EbayUserID}&iid={EbayItemID}" target="_blank">Ask seller a question</a></p>
+                    </div>
+                    <div class="span6">{if MerchantName != &quot;&quot;}
+                        <p>&copy; {MerchantName}</p>{/if}</div>
+                </div>
+            </div>
+        </div>
+        <div class="tab"><input type="radio" id="tab-2" name="tab-group-1" value="on"><label for="tab-2">Postage</label>
+            <div class="content">
+                <p>{if ShippingDomesticServiceType = &quot;CalculatedEbay&quot; OR ShippingRateTable != 0} Click the Postage tab above the listing description for more info {else} {if FlatShippingRate = 0 AND ShippingDomesticServiceType = &quot;Flat&quot;}
+                    Shipping is FREE for this item {else if ShippingDomesticServiceType = &quot;Flat&quot;} Shipping is a flat rate across {MerchantCountry} at a rate of {format ShippingDomesticCost1, EbayCurrency} {else if ShippingDomesticServiceType
+                    = &quot;CalculatedMerchant&quot;} Shipping can be calculated with the Postage Calculator above. {else} Shipping is calculated on eBay, click the Postage tab above the listing description for more information. {/if} {/if}</p>
+            </div>
+        </div>{if WarrantyHTML}
+        <div class="tab"><input type="radio" id="tab-3" name="tab-group-1" value="on"><label for="tab-3">Warranty</label>
+            <div class="content">{include field=&quot;WarrantyHTML&quot;}</div>
+        </div>{/if}
+        <div class="tab"><input type="radio" id="tab-4" name="tab-group-1" value="on"><label for="tab-4">Payment</label>
+            <div class="content">
+                <p>Accepted Payment Methods</p>
+                <ul>
+                    <li><strong>PayPal</strong></li>
+                    <li>{if MoneyOrderAccepted}</li>
+                    <li><strong>Money Order</strong></li>
+                    <li>{/if} {if DirectDepositAccepted}</li>
+                    <li><strong>Direct Deposit</strong></li>
+                    <li>{/if}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab"><input type="radio" id="tab-5" name="tab-group-1" value="on"><label for="tab-5">Returns</label>
+            <div class="content">{if ReturnsAccepted}
+                <p>Returns are accepted</p>
+                <p>Items must be returned within {if ReturnsWithin = &quot;Days_3&quot;} 3 days {else if ReturnsWithin = &quot;Days_7&quot;} 7 days {else if ReturnsWithin = &quot;Days_10&quot;} 10 days {else if ReturnsWithin = &quot;Days_14&quot;} 14 days
+                    {else if ReturnsWithin = &quot;Days_30&quot;} 30 days {else if ReturnsWithin = &quot;Days_60&quot;} 60 days {/if} of the auction ending</p>{else}
+                <p>Returns are <strong>not</strong> accepted</p>{/if}
+                <p>{if EbayShippingCostPaidByOption = &quot;Buyer&quot;}Buyer{else}Seller{/if} will pay for return shipping.</p>{if EbayReturnPolicyDescription}<br><strong>Additional Information:</strong>
+                <div>{EbayReturnPolicyDescription}</div>{/if}</div>
+        </div>
+    </div>
+</div>
+<div class="container" id="footer">
+    <!--
+				The following logo and attribution needs to remain with the appropriate link back to codisto as per our terms of service
+				-->
+    <div class="pull-right logo"><span class="muted">&nbsp;eBay integration</span> by&nbsp;<img class="baseline fr-fic fr-dib" src="{CDNUrl}/images/codisto-connect.png?width=200&nostretch&v=1"></div><img class="logo fr-fic fr-dib" src="{CDNUrl}/images/logo.png?width=201&nostretch&etag={LogoEtag}"></div>
+</div>
+</div>

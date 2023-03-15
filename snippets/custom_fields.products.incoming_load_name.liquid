@@ -1,0 +1,13 @@
+{% comment %}
+  DO NOT MODIFY THIS FILE DIRECTLY. THIS FILE WILL BE OVERWRITTEN.
+  YOU CAN MODIFY THE LIQUID CODE FOR THIS CUSTOM FIELD HERE:
+  https://customfields.bonify.io/dashboard/big-box-outlet-store.myshopify.com/products/configure/149256/edit
+{% endcomment %}
+{% if product.metafields.custom_fields["incoming_load_name"] != blank %}
+  <div class="custom-field custom-field__incoming-load-name custom-field__type--text-list">
+    <h3 class="custom-field--title">Incoming Load Name</h3>
+    <div class="custom-field--value">  
+      {{ product.metafields.custom_fields["incoming_load_name"] }}
+    </div>
+  </div>
+{% endif %}

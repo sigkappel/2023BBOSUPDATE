@@ -1,0 +1,31 @@
+{% comment %} Please don’t update this content {% endcomment %}
+
+{% layout none %}
+{% paginate collection.products by 50 %}
+  {
+    "products":
+      [
+        {% for product in collection.products %}
+          {
+            "id":{{ product.id }},
+            "position":{{ forloop.index }},
+            "metafields":[
+              
+              {% comment %}
+                Metafield Array
+              {% endcomment %}
+              {% assign l_custom_fields = product.metafields.custom_fields %}
+              {% for v_custom_fields in l_custom_fields %}
+                {
+                  "namespace": "custom_fields",
+                  "key": {{ v_custom_fields | first | json }},
+                  "value": {{ v_custom_fields | last | json }}
+                },
+              {% endfor %}
+        
+            ]
+          },
+        {% endfor %}
+      ]
+  }
+{% endpaginate %}
