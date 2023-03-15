@@ -364,8 +364,8 @@
   
 
       {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
-      	{% assign tags_str = product.tags | join: ' ' %}
-       {% unless tags_str contains "auction" %}
+      {% assign tags_str = product.tags | join: ' ' %}
+      {% unless tags_str contains "auction" %}
             {%
               render 'product-badge',
               product: product,
@@ -379,13 +379,20 @@
               show_saved: consistent_saved,
               include_range: true,
             %}
-         
-
-
           </figure>
           {% render 'banana-stand-product-list-container', product: product %}
+
+        {% endunless %} 
+        {%-- sigisig - end auction condition --%}
 </a>
 </div>
+
+
+
+{%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+      {% assign tags_str = product.tags | join: ' ' %}
+      {% unless tags_str contains "auction" %}
+
 
       {%- capture product_item_price -%}
         {%
@@ -405,7 +412,7 @@
         %}
       {%- endcapture -%}
 
-
+{%-- sigisig - end auction condition --%}
    
 
       <div class="productitem--info">
@@ -413,9 +420,16 @@
           {{ product_item_swatches }}
         {% endunless %}
 
-        {% if emphasize_price %}
-          {{ product_item_price }}
-        {% endif %}
+        {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+        {% assign tags_str = product.tags | join: ' ' %}
+        {% unless tags_str contains "auction" %}
+
+          {% if emphasize_price %}
+            {{ product_item_price }}
+          {% endif %}
+
+      {% endunless %} 
+      {%-- sigisig - end auction condition --%}
 
         <h2 class="productitem--title">
           <a href="{{ product_link }}" data-product-page-link>
@@ -423,8 +437,7 @@
           </a>
         </h2>
 
-      {% endunless %} 
-      {%-- sigisig - end auction condition --%}
+     
   
   
 
@@ -436,9 +449,16 @@
           {% endif %}
         {% endunless %}
 
-        {% unless emphasize_price %}
-          {{ product_item_price }}
-        {% endunless %}
+
+        {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+        {% assign tags_str = product.tags | join: ' ' %}
+        {% unless tags_str contains "auction" %}
+
+          {% unless emphasize_price %}
+            {{ product_item_price }}
+          {% endunless %}
+
+        {% endunless %}{%-- sigisig - end auction condition --%}
 
         {% unless product_compare %}
           {% if settings.inventory_status %}
