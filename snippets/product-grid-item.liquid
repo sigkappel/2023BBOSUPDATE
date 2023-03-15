@@ -363,7 +363,7 @@
             {% endif %}
   
 
-      {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+      {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
       {% assign tags_str = product.tags | join: ' ' %}
       {% unless tags_str contains "auction" %}
             {%
@@ -383,13 +383,13 @@
           {% render 'banana-stand-product-list-container', product: product %}
 
         {% endunless %} 
-        {%-- sigisig - end auction condition --%}
+        {%# sigisig - end auction condition #%}
 </a>
 </div>
 
 
 
-{%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+{%# sigisig - add auction condition remove product badge when it's an auction item  #%}
       {% assign tags_str = product.tags | join: ' ' %}
       {% unless tags_str contains "auction" %}
 
@@ -412,7 +412,7 @@
         %}
       {%- endcapture -%}
 
-{%-- sigisig - end auction condition --%}
+{%# sigisig - end auction condition #%}
    
 
       <div class="productitem--info">
@@ -420,7 +420,7 @@
           {{ product_item_swatches }}
         {% endunless %}
 
-        {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+        {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
         {% assign tags_str = product.tags | join: ' ' %}
         {% unless tags_str contains "auction" %}
 
@@ -429,7 +429,7 @@
           {% endif %}
 
       {% endunless %} 
-      {%-- sigisig - end auction condition --%}
+      {%# sigisig - end auction condition #%}
 
         <h2 class="productitem--title">
           <a href="{{ product_link }}" data-product-page-link>
@@ -450,7 +450,7 @@
         {% endunless %}
 
 
-        {%-- sigisig - add auction condition remove product badge when it's an auction item  --%}
+        {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
         {% assign tags_str = product.tags | join: ' ' %}
         {% unless tags_str contains "auction" %}
 
@@ -458,7 +458,7 @@
             {{ product_item_price }}
           {% endunless %}
 
-        {% endunless %}{%-- sigisig - end auction condition --%}
+        {% endunless %}{%# sigisig - end auction condition #%}
 
         {% unless product_compare %}
           {% if settings.inventory_status %}
