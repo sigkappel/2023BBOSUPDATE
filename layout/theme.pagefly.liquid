@@ -73,6 +73,15 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       twitter_handle: twitter_handle
     %}
 
+    {%- style -%}
+      @font-face {
+          font-family: 'MyriadPro Bold';
+          src: url({{ 'MyriadPro-Bold.woff2' | asset_url }}) format('woff2');
+          font-style: normal;
+          font-display: swap;
+      }
+    {%- endstyle -%}
+
     <link rel="preload" href="{{ settings.type_menu | font_url }}" as="font" crossorigin="anonymous">
     <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
 
