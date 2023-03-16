@@ -18,12 +18,6 @@
           "settings": {
           }
         },
-        "06f69fcb-b688-4e89-a01e-a9315321eb00": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "UPC: {{ product.variants.first.barcode }}"
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -34,15 +28,15 @@
           "settings": {
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "form": {
           "type": "form",
           "settings": {
             "enable_local_pickup": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "share": {
@@ -55,11 +49,10 @@
         "title",
         "vendor",
         "7342f5da-1ca0-4d6d-a559-03c35f92bb1e",
-        "06f69fcb-b688-4e89-a01e-a9315321eb00",
         "rating",
         "price",
-        "description",
         "form",
+        "description",
         "share"
       ],
       "settings": {
