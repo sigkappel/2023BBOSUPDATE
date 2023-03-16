@@ -18,6 +18,13 @@
           "settings": {
           }
         },
+        "f41461ec-c0e4-4ed9-ba9c-6a97328b4d64": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "all_products",
+            "inventory_transfer_notice": true
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -43,17 +50,30 @@
           "type": "share",
           "settings": {
           }
+        },
+        "f2e7fc1d-408c-44de-b2bd-b2a3b0de1a54": {
+          "type": "key_details",
+          "settings": {
+            "icon": "icon-delivery-package",
+            "title": "Delivery time",
+            "text": "<p>Use this text to share information about your product and policies with your customers.<\/p>",
+            "text_color": "#1D1D1D",
+            "icon_color": "#1D1D1D",
+            "background_color": "#f5f3ed"
+          }
         }
       },
       "block_order": [
         "title",
         "vendor",
         "7342f5da-1ca0-4d6d-a559-03c35f92bb1e",
+        "f41461ec-c0e4-4ed9-ba9c-6a97328b4d64",
         "rating",
         "price",
         "form",
         "description",
-        "share"
+        "share",
+        "f2e7fc1d-408c-44de-b2bd-b2a3b0de1a54"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
