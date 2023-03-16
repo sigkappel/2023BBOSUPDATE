@@ -482,8 +482,8 @@
         "settings": {
           "show_announcement": true,
           "homepage_announcement": false,
-          "announcement_text": "New items in-store daily! Find your nearest store",
-          "announcement_text_mobile": "New items in-store daily! Find your nearest store",
+          "announcement_text": "New items in-store daily! <a href=\"https:\/\/bigboxoutletstore.ca\">Find your nearest store<\/a>",
+          "announcement_text_mobile": "",
           "announcement_link": "shopify:\/\/pages\/contact-us",
           "announcement_color": "#ffffff",
           "announcement_background": "#003da5"
