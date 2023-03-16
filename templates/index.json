@@ -43,57 +43,38 @@
             "overlay_opacity": 4
           }
         },
-        "slide-3": {
+        "6258dd19-0750-4546-a56f-12d80ba86d1f": {
           "type": "slide",
           "settings": {
-            "title": "Slide",
-            "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#ffffff",
+            "background_image": "shopify:\/\/shop_images\/bbos-ecom-auction-webbanner_786bca12-81d7-4c26-8c08-e24d0e0e0768.jpg",
+            "title": "",
+            "text": "",
+            "color": "#FFFFFF",
             "link": "",
             "text_alignment": "center",
-            "button_one_label": "Button",
-            "button_one_link": "shopify:\/\/collections\/all",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "secondary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 20
-          }
-        },
-        "slide-4": {
-          "type": "slide",
-          "settings": {
-            "title": "Slide",
-            "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#1d1d1d",
-            "link": "",
-            "text_alignment": "left",
-            "button_one_label": "Button",
+            "button_one_label": "",
             "button_one_link": "",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
-            "button_two_style": "secondary",
-            "show_overlay": true,
+            "button_two_style": "primary",
+            "show_overlay": false,
             "overlay_color": "#000000",
-            "overlay_opacity": 5
+            "overlay_opacity": 50
           }
         }
       },
       "block_order": [
         "slide-1",
         "slide-2",
-        "slide-3",
-        "slide-4"
+        "6258dd19-0750-4546-a56f-12d80ba86d1f"
       ],
       "settings": {
         "enable_autoplay": true,
         "autoplay_duration": 9,
         "slideshow_width": "full",
-        "slideshow_height": "medium",
-        "slideshow_height_mobile": "x-large",
+        "slideshow_height": "original",
+        "slideshow_height_mobile": "original",
         "slideshow_text_below_image": false
       }
     },
