@@ -312,6 +312,11 @@
                   "
                 >
                   {{ 'product.general.sku_html' | t: sku: sku | strip_newlines }}
+
+                  <br/>
+                  {%#Sigmundt - putting in the barcode%}
+                  UPC: {{ product.variants.first.barcode }}
+
                 </div>
               {% endunless %}
 
