@@ -42,6 +42,7 @@
     "inventory_display": "all_products",
     "low_stock_threshold": 1,
     "product_option_style": "select",
+    "sold_out_options": "disabled",
     "swatches_enable": true,
     "swatches_product_card_size": 20,
     "swatches_product_page_size": 32,
