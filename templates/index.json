@@ -1,1 +1,763 @@
-{"sections":{"dynamic_slideshow":{"type":"dynamic-slideshow","blocks":{"slide-1":{"type":"slide","settings":{"background_image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image.jpg","title":"Smart shoppers save big","text":"Shop quality open box items at a store near you","color":"#ffffff","link":"","text_alignment":"left","button_one_label":"Find a Store","button_one_link":"shopify:\/\/collections\/all","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":13}},"slide-2":{"type":"slide","settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#1d1d1d","link":"","text_alignment":"left","button_one_label":"Button","button_one_link":"","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"primary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":4}},"slide-3":{"type":"slide","settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#ffffff","link":"","text_alignment":"center","button_one_label":"Button","button_one_link":"shopify:\/\/collections\/all","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":20}},"slide-4":{"type":"slide","settings":{"title":"Slide","text":"Introduce customers to your shop with lifestyle and product imagery","color":"#1d1d1d","link":"","text_alignment":"left","button_one_label":"Button","button_one_link":"","button_one_style":"primary","button_two_label":"","button_two_link":"","button_two_style":"secondary","show_overlay":true,"overlay_color":"#000000","overlay_opacity":5}}},"block_order":["slide-1","slide-2","slide-3","slide-4"],"settings":{"enable_autoplay":true,"autoplay_duration":9,"slideshow_width":"full","slideshow_height":"medium","slideshow_height_mobile":"x-large","slideshow_text_below_image":false}},"dynamic_highlights_banner":{"type":"dynamic-highlights-banner","blocks":{"highlight-1":{"type":"highlight","settings":{"icon":"icon-pin","image":"shopify:\/\/shop_images\/Location_-_Black.png","title":"12 Western Canada Locations","text":"<p>With 11 across BC and our newest location in AB!<\/p>","link":""}},"highlight-2":{"type":"highlight","settings":{"icon":"icon-delivery-package","image":"shopify:\/\/shop_images\/Box_-_Black.png","title":"Up to 70% off Open Box Items","text":"<p>Shop furniture, appliances, clothing and more.<\/p>","link":""}},"highlight-3":{"type":"highlight","settings":{"icon":"icon-thumbs-up","image":"shopify:\/\/shop_images\/Re-Certified_-_Black.png","title":"Re-Certified Quality","text":"<p>We inspect, test and re certify items before they hit the floor.<\/p>","link":""}},"highlight-4":{"type":"highlight","settings":{"icon":"icon-store","image":"shopify:\/\/shop_images\/Bag_-_Black.png","title":"60 Day In-Store Warranty","text":"<p>Most items include an in-store 60 day limited warranty.<\/p>","link":""}}},"block_order":["highlight-1","highlight-2","highlight-3","highlight-4"],"settings":{"section_spacing":false,"section_width":"content-width","icon_layout":"center","color":"#1d1d1d","icon_color":"#046e82","background_color":"#ffffff","mobile_layout":"grid"}},"de75b029-7f0a-453b-b3ef-9a5a907a77a0":{"type":"pxs-image-with-text-overlay","settings":{"section_height":"small","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Open-Box-Image.jpg","title":"Save up to 70% on re-certified open box items","text":"<p>We personally inspect, test, and re-certify items that arrive as previously opened. These items become available for a lower-than-retail price, of up to 70% off.<\/p>","content_position":"center-left","color":"#ffffff","overlay_background":"#000000","overlay_opacity":0,"link":"","button_text":"Find a Store"}},"dynamic_promo_grid":{"type":"dynamic-promo-grid","blocks":{"promotion-3":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Cleaning-Products.jpg","title":"Your favourite cleaning products for less","text":"Every day cleaning products and brand name vacuums, steamers, and accessories up to 70% off","color":"#222222","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"promotion-4":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Fashionw.jpg","title":"Name brand fashion and accessories","text":"Clothing for all occasions, including shoes, bags and purses, jewelry and more.","color":"#222222","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":54}}},"block_order":["promotion-3","promotion-4"],"settings":{"title":"","section_height":"medium","section_columns":2,"text_alignment":"top-left"}},"dynamic_promo_grid-2":{"type":"dynamic-promo-grid","blocks":{"promotion-1":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Lower-Mainland.jpg","title":"Lower Mainland","text":"4 Locations","color":"#ffffff","block_link":"","button_text":"","button_style":"secondary","show_overlay":false,"background":"rgba(0,0,0,0)","opacity":50}},"promotion-2":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Fraser-Valley.jpg","title":"Fraser Valley","text":"3 Locations","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"rgba(0,0,0,0)","opacity":50}},"3adcb11f-1f42-4766-be72-7c8111581bea":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Edmonton.jpg","title":"Okanagan","text":"4 Locations","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"3bd4ce22-1e01-4294-b382-bab2cbe7c6a2":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Okanagan.jpg","title":"Edmonton","text":"1 Locations","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-1","promotion-2","3adcb11f-1f42-4766-be72-7c8111581bea","3bd4ce22-1e01-4294-b382-bab2cbe7c6a2"],"settings":{"title":"Our Western Canada Locations","section_height":"small","section_columns":4,"text_alignment":"top-left"}},"5b5677c1-3681-4506-ad55-adb4b823bbe9":{"type":"dynamic-image-with-text","settings":{"section_heading":"","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Furnitures.jpg","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"right","mobile_image_alignment":"top","heading":"Furniture finds that won't blow your budget","subheading":"<p>Own brand name furniture at up to 70% off, always re-certified and always in-style.<\/p>","text_alignment":"left","button_label":"Find a Store","button_link":"shopify:\/\/pages\/search-results"}},"dynamic_collection_list":{"type":"dynamic-collection-list","blocks":{"collection-1":{"type":"collection","settings":{"collection":"small-appliances","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Appliances.jpg","title":"Appliances"}},"collection-2":{"type":"collection","settings":{"collection":"furniture","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Furniture.jpg","title":""}},"collection-3":{"type":"collection","settings":{"collection":"design-toscano","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Designer-Accessories.jpg","title":"Designer Accessories"}},"collection-4":{"type":"collection","settings":{"collection":"lego","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Lego.jpg","title":"LEGO®"}},"collection-5":{"type":"collection","settings":{"collection":"home-and-decor","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Home-Decor.jpg","title":"Home Decor"}},"collection-6":{"type":"collection","settings":{"collection":"laptop-cases-bags","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Laptops-Phones.jpg","title":"Laptops & Phones"}}},"block_order":["collection-1","collection-2","collection-3","collection-4","collection-5","collection-6"],"settings":{"title":"Our most popular in-store sellers","thumbnail_columns_desktop":6,"thumbnail_columns_mobile":3,"image-crop":"original","cta_label":"","cta_link":"","cta_button_style":"secondary"}},"dynamic_promo_grid-3":{"type":"dynamic-promo-grid","blocks":{"promotion-1":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Discover-More-Instore-01.jpg","title":"There's always more to discover in-store","text":"You will find it all at Big Box Outlet Store: tech, fashion, outdoor gear, hardware, kitchenware, furniture - even groceries","color":"#000000","block_link":"shopify:\/\/collections","button_text":"Find a Store","button_style":"primary","show_overlay":false,"background":"","opacity":50}},"d3de4807-5c07-4f86-a1ea-3a355011ca44":{"type":"promotion","settings":{"image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Shop-Online-01.jpg","title":"Shop our online inventory","text":"Exclusive online re-certified inventory posted daily, including live auctions and more.","color":"#ffffff","block_link":"shopify:\/\/collections","button_text":"Shop Online","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-1","d3de4807-5c07-4f86-a1ea-3a355011ca44"],"settings":{"title":"Grid","section_height":"medium","section_columns":2,"text_alignment":"top-left"}},"507cab5e-58a0-4224-ae96-3c632ddd24a1":{"type":"dynamic-image-with-text","settings":{"section_heading":"","image":"shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Recertified-01s.jpg","desktop_height":"natural","mobile_height":"natural","desktop_image_alignment":"left","mobile_image_alignment":"top","heading":"A Canadian owned and operated company","subheading":"<p>Formally known as MTF Price Matters, Big Box Outlet Store has been family-owned by the Funks since 1985 and operates in British Columbia and Alberta. We believe in helping families afford every day life.<\/p>","text_alignment":"left","button_label":"Find a Store","button_link":"shopify:\/\/collections\/all"}},"dynamic_testimonials":{"type":"dynamic-testimonials","blocks":{"testimonial-1":{"type":"testimonial","settings":{"star_rating":"5","text":"<p>Always a great experience coming here! Have found some really good items at amazing prices, excellent staff working there especially James!<\/p>","author":"<p>Sydney<\/p>"}},"testimonial-2":{"type":"testimonial","settings":{"star_rating":"5","text":"<p>Went here for the first time today looking for appliances. We found exactly what we were looking for at a great price.<\/p>","author":"<p>Ashley<\/p>"}},"testimonial-3":{"type":"testimonial","settings":{"star_rating":"5","text":"<p>Between the pricing, selection of products and overall customer experience, I will definitely be back in the near future!!<\/p>","author":"<p>Ryan<\/p>"}},"testimonial-4":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-5":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}},"testimonial-6":{"type":"testimonial","settings":{"star_rating":"4.5","text":"<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>","author":"<p>Author's name<\/p>"}}},"block_order":["testimonial-1","testimonial-2","testimonial-3","testimonial-4","testimonial-5","testimonial-6"],"settings":{"title":"What is everyone saying","image_crop":"circle","text_size":"medium"}},"dynamic_promo_mosaic":{"type":"dynamic-promo-mosaic","disabled":true,"blocks":{"promotion-3":{"type":"promotion","settings":{"title":"Mosaic","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":true,"background":"#000000","opacity":3}},"promotion-4":{"type":"promotion","settings":{"title":"Mosaic","text":"Use this section to welcome customers to your store, say a bit about your brand, or share news.","color":"#ffffff","block_link":"","button_text":"","button_style":"primary","show_overlay":false,"background":"","opacity":50}}},"block_order":["promotion-3","promotion-4"],"settings":{"title":"","section_height":"small","text_alignment":"top-left","maintain_aspect_ratio":true,"compress_blocks":false}},"dynamic_featured_collection":{"type":"dynamic-featured-collection","disabled":true,"blocks":{"view-all-card":{"type":"view_all_card","settings":{"text_alignment":"center-center","pre_heading":"View all","heading":"Collection","text_color":"#ffffff","overlay_color":"#000000","overlay_opacity":50}}},"block_order":["view-all-card"],"settings":{"title":"","layout":"slideshow","collection":"","product_count":9,"cta_label":"","cta_button_style":"primary"}},"dynamic_featured_product":{"type":"dynamic-featured-product","disabled":true,"blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"view-product-link":{"type":"view-product-link","settings":{"text":"View full details"}}},"block_order":["title","price","view-product-link"],"settings":{"product":"","gallery_aspect_ratio":"natural","gallery_image_crop":false,"gallery_thumbnail_position":"left","gallery_video_autoplay":false,"gallery_video_looping":true,"gallery_hover_zoom":"replace"}},"dynamic_shoppable_image":{"type":"dynamic-shoppable-image","disabled":true,"blocks":{"hotspot-1":{"type":"hotspot","settings":{"product":"","x_axis":24,"y_axis":79}},"hotspot-2":{"type":"hotspot","settings":{"product":"","x_axis":64,"y_axis":67}},"hotspot-3":{"type":"hotspot","settings":{"product":"","x_axis":61,"y_axis":5}},"hotspot-4":{"type":"hotspot","settings":{"product":"","x_axis":15,"y_axis":19}},"hotspot-5":{"type":"hotspot","settings":{"product":"","x_axis":87,"y_axis":48}}},"block_order":["hotspot-1","hotspot-2","hotspot-3","hotspot-4","hotspot-5"],"settings":{"title":"Shoppable image","image_width":"two-thirds","link_text":"View product","textbox_title":"Shop the look","textbox_subheading":"<p>Make an image shoppable by adding hotspots that link to various products.<\/p>","textbox_button_label":"Button","textbox_button_link":"","textbox_button_style":"primary","textbox_text_alignment":"center","textbox_text_position":"left"}},"dynamic_featured_collection-2":{"type":"dynamic-featured-collection","disabled":true,"blocks":{"title-card":{"type":"title_card","settings":{"horizontal_size":"3","vertical_size":"2","text_alignment":"center-center","pre_heading":"Featured","heading":"Collection","text_color":"#ffffff","cta_label":"See more","overlay_color":"#000000","overlay_opacity":10}}},"block_order":["title-card"],"settings":{"title":"Featured collection","layout":"grid","collection":"","product_count":4,"cta_label":"","cta_button_style":"primary"}},"dynamic_blog_posts":{"type":"dynamic-blog-posts","disabled":true,"settings":{"title":"Blog posts","blog":"","show_date":true,"show_author":false,"show_excerpt":true}},"dynamic_search":{"type":"dynamic-search","disabled":true,"settings":{"title":"Search","text":"Use this section to help customers find the products they're looking for.","placeholder":"What are you looking for?","filter_search_by":"disabled","enable_live_search":true,"enable_live_search_images":false,"enable_live_search_articles_pages":false,"show-overlay":false,"color":"#ffffff","background":"#000000","opacity":50}}},"order":["dynamic_slideshow","dynamic_highlights_banner","de75b029-7f0a-453b-b3ef-9a5a907a77a0","dynamic_promo_grid","dynamic_promo_grid-2","5b5677c1-3681-4506-ad55-adb4b823bbe9","dynamic_collection_list","dynamic_promo_grid-3","507cab5e-58a0-4224-ae96-3c632ddd24a1","dynamic_testimonials","dynamic_promo_mosaic","dynamic_featured_collection","dynamic_featured_product","dynamic_shoppable_image","dynamic_featured_collection-2","dynamic_blog_posts","dynamic_search"]}
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image.jpg",
+            "title": "Smart shoppers save big",
+            "text": "Shop quality open box items at a store near you",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Find a Store",
+            "button_one_link": "shopify:\/\/collections\/all",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 13
+          }
+        },
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-03-15--23-03-21--Baby-Pet-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
+        "slide-3": {
+          "type": "slide",
+          "settings": {
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "shopify:\/\/collections\/all",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 20
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "settings": {
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#1d1d1d",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "slide-1",
+        "slide-2",
+        "slide-3",
+        "slide-4"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "x-large",
+        "slideshow_text_below_image": false
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "image": "shopify:\/\/shop_images\/Location_-_Black.png",
+            "title": "12 Western Canada Locations",
+            "text": "<p>With 11 across BC and our newest location in AB!<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery-package",
+            "image": "shopify:\/\/shop_images\/Box_-_Black.png",
+            "title": "Up to 70% off Open Box Items",
+            "text": "<p>Shop furniture, appliances, clothing and more.<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "image": "shopify:\/\/shop_images\/Re-Certified_-_Black.png",
+            "title": "Re-Certified Quality",
+            "text": "<p>We inspect, test and re certify items before they hit the floor.<\/p>",
+            "link": ""
+          }
+        },
+        "highlight-4": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "image": "shopify:\/\/shop_images\/Bag_-_Black.png",
+            "title": "60 Day In-Store Warranty",
+            "text": "<p>Most items include an in-store 60 day limited warranty.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "highlight-4"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#046e82",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
+    },
+    "de75b029-7f0a-453b-b3ef-9a5a907a77a0": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Open-Box-Image.jpg",
+        "title": "Save up to 70% on re-certified open box items",
+        "text": "<p>We personally inspect, test, and re-certify items that arrive as previously opened. These items become available for a lower-than-retail price, of up to 70% off.<\/p>",
+        "content_position": "center-left",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": "Find a Store"
+      }
+    },
+    "dynamic_promo_grid": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Cleaning-Products.jpg",
+            "title": "Your favourite cleaning products for less",
+            "text": "Every day cleaning products and brand name vacuums, steamers, and accessories up to 70% off",
+            "color": "#222222",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Fashionw.jpg",
+            "title": "Name brand fashion and accessories",
+            "text": "Clothing for all occasions, including shoes, bags and purses, jewelry and more.",
+            "color": "#222222",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 54
+          }
+        }
+      },
+      "block_order": [
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "medium",
+        "section_columns": 2,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_promo_grid-2": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Lower-Mainland.jpg",
+            "title": "Lower Mainland",
+            "text": "4 Locations",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "secondary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Fraser-Valley.jpg",
+            "title": "Fraser Valley",
+            "text": "3 Locations",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 50
+          }
+        },
+        "3adcb11f-1f42-4766-be72-7c8111581bea": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Edmonton.jpg",
+            "title": "Okanagan",
+            "text": "4 Locations",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "3bd4ce22-1e01-4294-b382-bab2cbe7c6a2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Okanagan.jpg",
+            "title": "Edmonton",
+            "text": "1 Locations",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "3adcb11f-1f42-4766-be72-7c8111581bea",
+        "3bd4ce22-1e01-4294-b382-bab2cbe7c6a2"
+      ],
+      "settings": {
+        "title": "Our Western Canada Locations",
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "5b5677c1-3681-4506-ad55-adb4b823bbe9": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Furnitures.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Furniture finds that won't blow your budget",
+        "subheading": "<p>Own brand name furniture at up to 70% off, always re-certified and always in-style.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Find a Store",
+        "button_link": "shopify:\/\/pages\/search-results"
+      }
+    },
+    "dynamic_collection_list": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "small-appliances",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Appliances.jpg",
+            "title": "Appliances"
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "furniture",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Furniture.jpg",
+            "title": ""
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "design-toscano",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Designer-Accessories.jpg",
+            "title": "Designer Accessories"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "lego",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Lego.jpg",
+            "title": "LEGO®"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "home-and-decor",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Home-Decor.jpg",
+            "title": "Home Decor"
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "laptop-cases-bags",
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Laptops-Phones.jpg",
+            "title": "Laptops & Phones"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6"
+      ],
+      "settings": {
+        "title": "Our most popular in-store sellers",
+        "thumbnail_columns_desktop": 6,
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "secondary"
+      }
+    },
+    "dynamic_promo_grid-3": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Discover-More-Instore-01.jpg",
+            "title": "There's always more to discover in-store",
+            "text": "You will find it all at Big Box Outlet Store: tech, fashion, outdoor gear, hardware, kitchenware, furniture - even groceries",
+            "color": "#000000",
+            "block_link": "shopify:\/\/collections",
+            "button_text": "Find a Store",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "d3de4807-5c07-4f86-a1ea-3a355011ca44": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Shop-Online-01.jpg",
+            "title": "Shop our online inventory",
+            "text": "Exclusive online re-certified inventory posted daily, including live auctions and more.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/collections",
+            "button_text": "Shop Online",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "d3de4807-5c07-4f86-a1ea-3a355011ca44"
+      ],
+      "settings": {
+        "title": "Grid",
+        "section_height": "medium",
+        "section_columns": 2,
+        "text_alignment": "top-left"
+      }
+    },
+    "507cab5e-58a0-4224-ae96-3c632ddd24a1": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Recertified-01s.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "A Canadian owned and operated company",
+        "subheading": "<p>Formally known as MTF Price Matters, Big Box Outlet Store has been family-owned by the Funks since 1985 and operates in British Columbia and Alberta. We believe in helping families afford every day life.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Find a Store",
+        "button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "dynamic_testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>Always a great experience coming here! Have found some really good items at amazing prices, excellent staff working there especially James!<\/p>",
+            "author": "<p>Sydney<\/p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>Went here for the first time today looking for appliances. We found exactly what we were looking for at a great price.<\/p>",
+            "author": "<p>Ashley<\/p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>Between the pricing, selection of products and overall customer experience, I will definitely be back in the near future!!<\/p>",
+            "author": "<p>Ryan<\/p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "settings": {
+        "title": "What is everyone saying",
+        "image_crop": "circle",
+        "text_size": "medium"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "disabled": true,
+      "blocks": {
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 3
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_featured_collection": {
+      "type": "dynamic-featured-collection",
+      "disabled": true,
+      "blocks": {
+        "view-all-card": {
+          "type": "view_all_card",
+          "settings": {
+            "text_alignment": "center-center",
+            "pre_heading": "View all",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "view-all-card"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "collection": "",
+        "product_count": 9,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_featured_product": {
+      "type": "dynamic-featured-product",
+      "disabled": true,
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "view-product-link": {
+          "type": "view-product-link",
+          "settings": {
+            "text": "View full details"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "view-product-link"
+      ],
+      "settings": {
+        "product": "",
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "left",
+        "gallery_video_autoplay": false,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "replace"
+      }
+    },
+    "dynamic_shoppable_image": {
+      "type": "dynamic-shoppable-image",
+      "disabled": true,
+      "blocks": {
+        "hotspot-1": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 24,
+            "y_axis": 79
+          }
+        },
+        "hotspot-2": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 64,
+            "y_axis": 67
+          }
+        },
+        "hotspot-3": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 61,
+            "y_axis": 5
+          }
+        },
+        "hotspot-4": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 15,
+            "y_axis": 19
+          }
+        },
+        "hotspot-5": {
+          "type": "hotspot",
+          "settings": {
+            "product": "",
+            "x_axis": 87,
+            "y_axis": 48
+          }
+        }
+      },
+      "block_order": [
+        "hotspot-1",
+        "hotspot-2",
+        "hotspot-3",
+        "hotspot-4",
+        "hotspot-5"
+      ],
+      "settings": {
+        "title": "Shoppable image",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Shop the look",
+        "textbox_subheading": "<p>Make an image shoppable by adding hotspots that link to various products.<\/p>",
+        "textbox_button_label": "Button",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "center",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "disabled": true,
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout": "grid",
+        "collection": "",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_blog_posts": {
+      "type": "dynamic-blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true
+      }
+    },
+    "dynamic_search": {
+      "type": "dynamic-search",
+      "disabled": true,
+      "settings": {
+        "title": "Search",
+        "text": "Use this section to help customers find the products they're looking for.",
+        "placeholder": "What are you looking for?",
+        "filter_search_by": "disabled",
+        "enable_live_search": true,
+        "enable_live_search_images": false,
+        "enable_live_search_articles_pages": false,
+        "show-overlay": false,
+        "color": "#ffffff",
+        "background": "#000000",
+        "opacity": 50
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "dynamic_highlights_banner",
+    "de75b029-7f0a-453b-b3ef-9a5a907a77a0",
+    "dynamic_promo_grid",
+    "dynamic_promo_grid-2",
+    "5b5677c1-3681-4506-ad55-adb4b823bbe9",
+    "dynamic_collection_list",
+    "dynamic_promo_grid-3",
+    "507cab5e-58a0-4224-ae96-3c632ddd24a1",
+    "dynamic_testimonials",
+    "dynamic_promo_mosaic",
+    "dynamic_featured_collection",
+    "dynamic_featured_product",
+    "dynamic_shoppable_image",
+    "dynamic_featured_collection-2",
+    "dynamic_blog_posts",
+    "dynamic_search"
+  ]
+}
