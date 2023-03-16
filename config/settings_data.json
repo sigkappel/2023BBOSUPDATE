@@ -4,12 +4,12 @@
     "color_headings": "#222222",
     "color_text": "#4d4d4d",
     "color_text_light": "#949494",
-    "color_links": "#006ab6",
+    "color_links": "#003da5",
     "color_button_background": "#e8c220",
-    "color_button_text": "#016ab5",
-    "color_button_secondary_background": "#006ab6",
+    "color_button_text": "#003da5",
+    "color_button_secondary_background": "#003da5",
     "color_button_secondary_text": "#ffffff",
-    "color_button_secondary_border": "#016ab5",
+    "color_button_secondary_border": "#003da5",
     "color_header_background": "#ffffff",
     "color_header_text": "#222222",
     "color_input_text": "#4d4d4d",
@@ -486,7 +486,7 @@
           "announcement_text_mobile": "New items in-store daily! Find your nearest store",
           "announcement_link": "shopify:\/\/pages\/contact-us",
           "announcement_color": "#ffffff",
-          "announcement_background": "#016ab5"
+          "announcement_background": "#003da5"
         }
       },
       "static-product-recommendations": {
