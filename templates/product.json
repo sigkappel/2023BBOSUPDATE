@@ -47,7 +47,7 @@
         "06f69fcb-b688-4e89-a01e-a9315321eb00": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "{{ product.barcode }}"
+            "custom_liquid": "upc: {{ product.variants.first.barcode }}"
           }
         }
       },
