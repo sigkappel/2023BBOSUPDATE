@@ -18,6 +18,12 @@
           "settings": {
           }
         },
+        "06f69fcb-b688-4e89-a01e-a9315321eb00": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "UPC: {{ product.variants.first.barcode }}"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -43,24 +49,18 @@
           "type": "share",
           "settings": {
           }
-        },
-        "06f69fcb-b688-4e89-a01e-a9315321eb00": {
-          "type": "custom-liquid",
-          "settings": {
-            "custom_liquid": "upc: {{ product.variants.first.barcode }}"
-          }
         }
       },
       "block_order": [
         "title",
         "vendor",
         "7342f5da-1ca0-4d6d-a559-03c35f92bb1e",
+        "06f69fcb-b688-4e89-a01e-a9315321eb00",
         "rating",
         "price",
         "description",
         "form",
-        "share",
-        "06f69fcb-b688-4e89-a01e-a9315321eb00"
+        "share"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
