@@ -38,7 +38,7 @@
         "form": {
           "type": "form",
           "settings": {
-            "enable_local_pickup": true
+            "enable_local_pickup": false
           }
         },
         "description": {
