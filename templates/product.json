@@ -57,6 +57,17 @@
             "icon": "icon-information",
             "title": "Condition details",
             "text": "<p>{{ product.metafields.custom_fields.condition_details | metafield_tag }}<\/p>",
+            "text_color": "#1d1d1d",
+            "icon_color": "#1d1d1d",
+            "background_color": "#f5f3ed"
+          }
+        },
+        "3f38720d-cf47-45f8-88d4-86780a4e5fcb": {
+          "type": "key_details",
+          "settings": {
+            "icon": "icon-delivery-package",
+            "title": "Delivery time",
+            "text": "<p>Use this text to share information about your product and policies with your customers.<\/p>",
             "text_color": "#1D1D1D",
             "icon_color": "#1D1D1D",
             "background_color": "#f5f3ed"
@@ -73,7 +84,8 @@
         "form",
         "description",
         "share",
-        "f2e7fc1d-408c-44de-b2bd-b2a3b0de1a54"
+        "f2e7fc1d-408c-44de-b2bd-b2a3b0de1a54",
+        "3f38720d-cf47-45f8-88d4-86780a4e5fcb"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
