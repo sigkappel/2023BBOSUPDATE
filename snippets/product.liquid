@@ -160,8 +160,11 @@
                   </h1>
                 {% endif %}
               {% endif %}
-
-            {% when 'vendor' %}
+         
+          
+            
+              {% when 'vendor' %}
+              {% unless product.tags contains 'localsonly' %} 
               {% if product.vendor != blank or onboarding %}
                 <div class="product-vendor">
                   {% unless onboarding %}
@@ -173,8 +176,12 @@
                     {{ 'onboarding.product.by_vendor' | t }}
                   {% endunless %}
                 </div>
+            
               {% endif %}
+                     {% endunless %}
 
+           
+              
             {% when 'inventory_status' %}
               {% for variant in product.variants %}
                 {% capture stock_attributes %}
