@@ -32,13 +32,15 @@
 
   {% paginate blog.articles by paginate_by %}
 
+    {% comment %}
     {% if show_featured %}
       {%
         render 'article-excerpt-featured',
         article: articles[featured_post]
       %}
     {% endif %}
-
+    {% endcomment %}
+    
     <ul class="blog--inner">
       {% for article in blog.articles %}
         {%
