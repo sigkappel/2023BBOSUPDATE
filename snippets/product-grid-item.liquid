@@ -461,19 +461,24 @@
           {% endunless %}
 
         {% endunless %}{%# sigisig - end auction condition #%}
-
-        {% unless product_compare %}
-          {% if settings.inventory_status %}
-            <div class="productitem__stock-level">
-              {%
-                render 'product-stock-level',
-                inventory_display: settings.inventory_display,
-                inventory_transfer: settings.inventory_transfer_notice,
-                variant: product.selected_or_first_available_variant,
-                verbose: false,
-              %}
-            </div>
-          {% endif %}
+        
+       
+          {% unless product_compare %}
+            
+            {% if settings.inventory_status %}
+               {% unless product.tags contains 'localsonly' %}{%# Sigmundt - remove the stock level if action #%}
+                  <div class="productitem__stock-level">
+                  {%
+                    render 'product-stock-level',
+                    inventory_display: settings.inventory_display,
+                    inventory_transfer: settings.inventory_transfer_notice,
+                    variant: product.selected_or_first_available_variant,
+                    verbose: false,
+                  %}
+                </div>
+              {% endunless %}
+            {% endif %}
+          
 
           {% unless countdown_timer %}
             {% if settings.product_ratings_star_display and product.metafields.reviews.rating.value != blank %}
@@ -541,12 +546,12 @@
             {% endif %}
           {% endif %}
   
-          {% unless product.tags contains 'localsonly' %}{%# Sigmundt - remove the sold out tag if it's a localsonly product #%}
+        
             {% unless product_available %}
               {% assign quick_buy_text = 'product.buttons.sold_out' | t %}
               {% assign quick_buy_classes = quick_buy_classes | append: ' disabled' %}
             {% endunless %}
-          {% endunless %}
+       
 
           <div class="productitem--actions" data-product-actions>
             <div class="productitem--listview-price">
