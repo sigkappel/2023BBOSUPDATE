@@ -105,9 +105,23 @@
 {% assign product_available = product_available | default: product.available %}
 
 {%- if product_available != true -%}
+
+   {%- comment -%} Sigmundt - exception for locals only tag {%- endcomment -%}
+  {%- if product.tags contains 'localsonly' -%}
+  
+     <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
+      Check Your Local Store
+      </span>
+  
+    {%- else -%}
+
+  
   <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
     {{ 'product_price.badge.sold_out' | t }}
   </span>
+
+ {%- endif -%}
+    
 {%- elsif on_sale and sales_badge -%}
   {% assign on_sale = on_sale | default: true %}
   {% assign saved_price_single = savings_money_single | money %}
