@@ -441,13 +441,14 @@
      
   
   
-
-        {% unless product_compare %}
-          {% if settings.product_show_vendor and product.vendor != blank %}
-            <span class="productitem--vendor">
-              {{ product_vendor | link_to_vendor }}
-            </span>
-          {% endif %}
+      {% unless product.tags contains 'localsonly' %}
+          {% unless product_compare %}
+            {% if settings.product_show_vendor and product.vendor != blank %}
+              <span class="productitem--vendor">
+                {{ product_vendor | link_to_vendor }}
+              </span>
+            {% endif %}
+          {% endunless %}
         {% endunless %}
 
 
