@@ -183,23 +183,25 @@
            
               
             {% when 'inventory_status' %}
-              {% for variant in product.variants %}
-                {% capture stock_attributes %}
-                  data-stock-level
-                  data-stock-variant-id="{{ variant.id }}"
-                  data-stock-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
-                {% endcapture %}
 
-                {%
-                  render 'product-stock-level',
-                  attr: stock_attributes,
-                  inventory_display: block.settings.inventory_display,
-                  inventory_transfer: block.settings.inventory_transfer_notice,
-                  variant: variant,
-                  verbose: true,
-                %}
-              {% endfor %}
-
+              {% unless product.tags contains 'localsonly' %}    {% # Sigmundt - localsonly tag remove the inventory %}
+                {% for variant in product.variants %}
+                  {% capture stock_attributes %}
+                    data-stock-level
+                    data-stock-variant-id="{{ variant.id }}"
+                    data-stock-variant-selected="{% if variant == selected_variant %}true{% else %}false{% endif %}"
+                  {% endcapture %}
+  
+                  {%
+                    render 'product-stock-level',
+                    attr: stock_attributes,
+                    inventory_display: block.settings.inventory_display,
+                    inventory_transfer: block.settings.inventory_transfer_notice,
+                    variant: variant,
+                    verbose: true,
+                  %}
+                {% endfor %}
+              {% endunless %} {% # Sigmundt - localsonly tag remove the inventory - end %}
             {% when 'rating' %}
               {% if product.metafields.reviews.rating.value != blank %}
                 <div class="product__rating rating">
