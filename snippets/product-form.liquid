@@ -97,6 +97,9 @@
   {% assign option_swatch_classes = 'swatch' %}
   {% assign option_swatch_inner_classes = 'swatch-inner' %}
 
+  {%# Sigmundt - used to see if this product is on auction %}
+{% assign tags_str = product.tags | join: ' ' %}
+
   {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection begin{% endcomment %}
   {% comment %}
     Display variant options for a product
