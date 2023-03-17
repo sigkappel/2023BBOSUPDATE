@@ -76,7 +76,7 @@
     "continue_url_cart": true,
     "continue_url_404": true,
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Log-BBOS-TM--trans-close-crop.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -86,8 +86,8 @@
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-    "checkout_accent_color": "#197bbd",
-    "checkout_button_color": "#197bbd",
+    "checkout_accent_color": "#003da5",
+    "checkout_button_color": "#003da5",
     "checkout_error_color": "#e32c2b",
     "product_show_sku": true,
     "product_social_sharing": true,
@@ -126,10 +126,20 @@
               "image_aspect_ratio": "natural",
               "image_crop": true
             }
+          },
+          "f3c4cbd9-b608-40d8-adce-97ba7da14a66": {
+            "type": "meganav_sidenav",
+            "settings": {
+              "meganav_trigger": "Shop In-Store",
+              "submenu_layout": "text_columns",
+              "image_aspect_ratio": "natural",
+              "image_crop": true
+            }
           }
         },
         "block_order": [
-          "c6dbae84-3af1-4d5f-b277-75a4434ee15b"
+          "c6dbae84-3af1-4d5f-b277-75a4434ee15b",
+          "f3c4cbd9-b608-40d8-adce-97ba7da14a66"
         ],
         "settings": {
           "sticky_header": true,
