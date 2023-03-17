@@ -242,7 +242,7 @@
   </variant-selection>
   {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection end{% endcomment %}
 
-
+ {% unless tags_str contains "auction" %}
   <div class="product-form--atc">
     <div class="product-form__action-wrapper">
       {%
@@ -282,7 +282,8 @@
         </span>
       </button>
     </div>
-
+{% endunless %}
+  
     {% if show_dynamic_checkout_button %}
       {{ form | payment_button }}
     {% endif %}
