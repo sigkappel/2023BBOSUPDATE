@@ -681,54 +681,15 @@
               "text": "<p>... On Boxing Day I discovered the Big Box Outlet in Langley. They’ve got so much.If you want a good price on laundry sets and home appliances, check them out. <\/p>",
               "author": "<p>Marivick<\/p>"
             }
-          },
-          "55dc979e-75e6-44cc-aa29-1de079a1d275": {
-            "type": "testimonial",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
-              "star_rating": "4.5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
-            }
-          },
-          "6b59f720-da35-426f-b538-c69467246391": {
-            "type": "testimonial",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
-              "star_rating": "5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
-            }
-          },
-          "ac4f4325-92b1-4c22-96e7-cfb6ee46f360": {
-            "type": "testimonial",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
-              "star_rating": "5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
-            }
-          },
-          "1130a5a7-23b3-461b-8bbe-79e777ff468b": {
-            "type": "testimonial",
-            "settings": {
-              "star_rating": "4.5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
-            }
           }
         },
         "block_order": [
           "c365b2c9-c6f6-47ad-b05c-e5a518348453",
           "ea71affe-f7d6-4965-bfdf-41d995431225",
-          "880cba26-3505-4bac-8e08-8931c6f6d33d",
-          "55dc979e-75e6-44cc-aa29-1de079a1d275",
-          "6b59f720-da35-426f-b538-c69467246391",
-          "ac4f4325-92b1-4c22-96e7-cfb6ee46f360",
-          "1130a5a7-23b3-461b-8bbe-79e777ff468b"
+          "880cba26-3505-4bac-8e08-8931c6f6d33d"
         ],
         "settings": {
-          "title": "Testimonials",
+          "title": "What people are saying",
           "image_crop": "circle",
           "text_size": "medium"
         }
