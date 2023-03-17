@@ -274,7 +274,7 @@
               {% endunless %}
 
             {% when 'price' %}
-            {% unless tags_str contains "auction" %}
+            {% unless tags_str contains "auction" %}{% # Sigmundt - Do not show price if it's an auction product %}
               <div
                 class="product-pricing"
                 aria-live="polite"
