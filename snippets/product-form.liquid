@@ -242,7 +242,9 @@
   </variant-selection>
   {% comment %}Inject @pixelunion/shopify-variants-ui/variant-selection end{% endcomment %}
 
-
+  {%# Sigmundt - used to see if this product is on auction and remove the form if so %}
+{% assign tags_str = product.tags | join: ' ' %}
+ {% unless tags_str contains "auction" %}
   <div class="product-form--atc">
     <div class="product-form__action-wrapper">
       {%
@@ -291,7 +293,7 @@
   <div data-payment-terms-reference style="display: none;">
     {{ form | payment_terms }}
   </div>
-
+ {% endunless %}
   {% if enable_local_pickup %}
     <div class="surface-pick-up" data-surface-pick-up></div>
   {% endif %}
