@@ -274,6 +274,7 @@
               {% endunless %}
 
             {% when 'price' %}
+            {% unless tags_str contains "auction" %}
               <div
                 class="product-pricing"
                 aria-live="polite"
@@ -313,7 +314,7 @@
 
                 <form data-payment-terms-target style="display: none;"></form>
               </div>
-
+            {% endunless %}
             {% when 'sku' %}
               {% unless onboarding %}
                 <div
