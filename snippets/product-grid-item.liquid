@@ -441,7 +441,7 @@
      
   
   
-      {% unless product.tags contains 'localsonly' %}{%# Sigmundt - add auction condition remove product badge when it's an auction item  #%}
+      {% unless product.tags contains 'localsonly' %}{%# Sigmundt - remove vendor from grid if it's locals only #%}
           {% unless product_compare %}
             {% if settings.product_show_vendor and product.vendor != blank %}
               <span class="productitem--vendor">
@@ -540,10 +540,12 @@
               {% assign quick_buy_text = 'product.buttons.pre_order' | t %}
             {% endif %}
           {% endif %}
-
-          {% unless product_available %}
-            {% assign quick_buy_text = 'product.buttons.sold_out' | t %}
-            {% assign quick_buy_classes = quick_buy_classes | append: ' disabled' %}
+  
+          {% unless product.tags contains 'localsonly' %}{%# Sigmundt - remove the sold out tag if it's a localsonly product #%}
+            {% unless product_available %}
+              {% assign quick_buy_text = 'product.buttons.sold_out' | t %}
+              {% assign quick_buy_classes = quick_buy_classes | append: ' disabled' %}
+            {% endunless %}
           {% endunless %}
 
           <div class="productitem--actions" data-product-actions>
