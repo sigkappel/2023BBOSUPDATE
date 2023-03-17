@@ -337,6 +337,8 @@
               {% endif %}
 
             {% when 'form' %}
+            {% unless product.tags contains 'localsonly' %}    {% # Sigmundt - localsonly tag remove the inventory %}
+            
               <div
                 class="product-form--regular"
                 data-product-form-regular
@@ -370,7 +372,13 @@
                   {% endunless %}
                 </div>
               </div>
+
+              
               <!-- Start-MakeAnOffer version: 7 --><span id="mf_button"></span><!-- End-MakeAnOffer -->
+
+            {% endunless %}    {% # Sigmundt - localsonly tag remove the form - end %}
+
+            
             {% when 'text' %}
               <div class="product-text">
                 {{ block.settings.text }}
