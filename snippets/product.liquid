@@ -40,6 +40,8 @@
 {% assign layout = layout | default: nil %}
 {% assign is_featured_product = is_featured_product | default: false %}
 
+{% assign tags_str = product.tags | join: ' ' %} {%  # Sigmundt - tags_string just a long string of the product tags %}
+
 {% if layout == 'layout--three-col' %}
   {% assign product_form = true %}
 {% else %}
@@ -337,7 +339,7 @@
               {% endif %}
 
             {% when 'form' %}
-            {% unless product.tags contains 'localsonly' %}    {% # Sigmundt - localsonly tag remove the inventory %}
+            {% unless product.tags contains 'localsonly' or  tags_str contains "auction" %}    {% # Sigmundt - localsonly tag remove the inventory %}
             
               <div
                 class="product-form--regular"
