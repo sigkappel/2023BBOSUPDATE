@@ -164,21 +164,21 @@
           
             
               {% when 'vendor' %}
-              {% unless product.tags contains 'localsonly' %} 
-              {% if product.vendor != blank or onboarding %}
-                <div class="product-vendor">
-                  {% unless onboarding %}
-                    {%- capture vendor_link -%}
-                      {{ product.vendor | link_to_vendor }}
-                    {%- endcapture -%}
-                    {{ 'product.general.by_vendor_html' | t: vendor_link: vendor_link }}
-                  {% else %}
-                    {{ 'onboarding.product.by_vendor' | t }}
-                  {% endunless %}
-                </div>
-            
-              {% endif %}
-                     {% endunless %}
+                {% unless product.tags contains 'localsonly' %}    {% # Sigmundt - localsonly tag remove the vendor name %}
+                {% if product.vendor != blank or onboarding %}
+                  <div class="product-vendor">
+                    {% unless onboarding %}
+                      {%- capture vendor_link -%}
+                        {{ product.vendor | link_to_vendor }}
+                      {%- endcapture -%}
+                      {{ 'product.general.by_vendor_html' | t: vendor_link: vendor_link }}
+                    {% else %}
+                      {{ 'onboarding.product.by_vendor' | t }}
+                    {% endunless %}
+                  </div>
+              
+                {% endif %}
+              {% endunless %} {% # Sigmundt - localsonly tag remove the vendor name - end %}
 
            
               
