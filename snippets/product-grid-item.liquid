@@ -466,7 +466,7 @@
           {% unless product_compare %}
             
             {% if settings.inventory_status %}
-               {% unless product.tags contains 'localsonly' %}{%# Sigmundt - remove the stock level if action #%}
+               {% unless product.tags contains 'localsonly' or  tags_str contains "auction" %}{%# Sigmundt - remove the stock level if action #%}
                   <div class="productitem__stock-level">
                   {%
                     render 'product-stock-level',
