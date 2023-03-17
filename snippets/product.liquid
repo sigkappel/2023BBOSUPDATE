@@ -339,6 +339,7 @@
               {% endif %}
 
             {% when 'form' %}
+            {% unless tags_str contains "auction" %}
             {% unless product.tags contains 'localsonly'  %}    {% # Sigmundt - localsonly tag remove the inventory %}
             
               <div
@@ -372,6 +373,7 @@
                       is_product_modal: is_product_modal,
                     %}
                   {% endunless %}
+               {% endunless %}
                 </div>
               </div>
 
