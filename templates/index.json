@@ -352,7 +352,7 @@
         "collection-6"
       ],
       "settings": {
-        "title": "Our most popular in-store sellers",
+        "title": "Our most popular online product categories",
         "thumbnail_columns_desktop": 6,
         "thumbnail_columns_mobile": 3,
         "image-crop": "original",
@@ -371,7 +371,7 @@
             "title": "There's always more to discover in-store",
             "text": "You will find it all at Big Box Outlet Store: tech, fashion, outdoor gear, hardware, kitchenware, furniture - even groceries",
             "color": "#000000",
-            "block_link": "shopify:\/\/collections",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "Find a Store",
             "button_style": "primary",
             "show_overlay": false,
@@ -386,7 +386,7 @@
             "title": "Shop our online inventory",
             "text": "Exclusive online re-certified inventory posted daily, including live auctions and more.",
             "color": "#ffffff",
-            "block_link": "shopify:\/\/collections",
+            "block_link": "shopify:\/\/collections\/all",
             "button_text": "Shop Online",
             "button_style": "primary",
             "show_overlay": false,
@@ -419,7 +419,7 @@
         "subheading": "<p>Formally known as MTF Price Matters, Big Box Outlet Store has been family-owned by the Funks since 1985 and operates in British Columbia and Alberta. We believe in helping families afford every day life.<\/p>",
         "text_alignment": "left",
         "button_label": "Find a Store",
-        "button_link": "shopify:\/\/collections\/all"
+        "button_link": "shopify:\/\/pages\/big-box-outlet-store-locations"
       }
     },
     "dynamic_testimonials": {
