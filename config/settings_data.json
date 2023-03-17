@@ -598,13 +598,16 @@
           "subheading": "<p>We personally inspect, test, and re-certify items that arrive as previously opened, \"open box\" After this careful process, these items become re-stocked and available to our customers at a lower-than-retail price, of up to 70% off.<\/p>",
           "text_alignment": "center",
           "button_label": "Find a Store",
-          "button_link": "shopify:\/\/collections\/all"
+          "button_link": "shopify:\/\/pages\/big-box-outlet-store-locations"
         }
       },
       "custom-about": {
         "type": "custom-about",
+        "custom_css": [
+
+        ],
         "settings": {
-          "custom_liquid": "<h1 style=\"text-align:center; font-size:34px\">\nHelping People Afford Everyday Life<\/h1>\n\n<h4 style=\"text-align:center; color:#003da5; font-size:24px; margin-top:-10px\" > Western Canada's leading liquidation store <h4>\n\n<h6 style=\"text-align:center\"> Big Box Outlet Store has been Canadian family-owned since 1985.  The core of our brand is to make everyday life more affordable, and we remain true to our roots.  We are experts at finding brand name items through our reverse logistics and other purchasing channels, in order to sell quality products to customers at heavily discounted prices. <br> <br>\nWe know how important saving money is for our customers and we work hard to make sure we deliver on value every single day. <\/h6>\n\n<div style=\"text-align:center; margin-top:-40px\" >\n<a href=\"\/collections\/all\" class=\"slideshow-slide__button slideshow-slide__button--primary pxu-lia-element mdc-ripple-surface mdc-ripple-upgraded\" tabindex=\"0\" style=\"--pxu-lia-inner-sequence:2; animation-play-state: running;\">\n      Find a Store\n<\/a>\n<\/div>"
+          "custom_liquid": "<div style=\"max-width:700px; margin-right:auto; margin-left:auto;\">\n<h1 style=\"text-align:center; font-size:34px\">\nHelping People Afford Everyday Life<\/h1>\n\n<h3 style=\"text-align:center; color:#003da5; font-size:24px; margin-top:-10px\" > Western Canada's leading liquidation store <\/h3>\n\n<p style=\"text-align:center\"> Big Box Outlet Store has been Canadian family-owned since 1985.  The core of our brand is to make everyday life more affordable, and we remain true to our roots.  We are experts at finding brand name items through our reverse logistics and other purchasing channels, in order to sell quality products to customers at heavily discounted prices.\n<\/p><p style=\"text-align:center\">We know how important saving money is for our customers and we work hard to make sure we deliver on value every single day.\n <\/p><br\/>\n\n<div style=\"text-align:center; margin-top:-40px\" >\n<a href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\" class=\"slideshow-slide__button slideshow-slide__button--primary pxu-lia-element mdc-ripple-surface mdc-ripple-upgraded\" tabindex=\"0\" style=\"--pxu-lia-inner-sequence:2; animation-play-state: running;\">\n      Find a Store\n<\/a>\n<\/div>\n<\/div>"
         }
       },
       "grid-about": {
@@ -646,7 +649,7 @@
           "6878ce80-ae2b-404e-ad34-d46b2e3611c3"
         ],
         "settings": {
-          "title": "Grid",
+          "title": "",
           "section_height": "small",
           "section_columns": 2,
           "text_alignment": "top-left"
