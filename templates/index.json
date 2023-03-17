@@ -452,12 +452,20 @@
         "testimonial-4": {
           "type": "testimonial",
           "settings": {
-            "star_rating": "4.5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "<p>Author's name<\/p>"
+            "star_rating": "5",
+            "text": "<p>Absolutely exceptional customer service! Thanks so much for all your assistance with our family’s new additions purchase! Staff here went above and beyond! Thanks so much for the great shopping experience<\/p>",
+            "author": "<p>Khianna<\/p>"
           }
         },
         "testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>The staff and Supervisors\/Managers at the Abbotsford store are very helpful and accommodating.  Made numerous big ticket purchases at this store and was never disappointed.<\/p>",
+            "author": "<p>Rafael<\/p>"
+          }
+        },
+        "testimonial-6": {
           "type": "testimonial",
           "settings": {
             "star_rating": "4.5",
@@ -465,7 +473,7 @@
             "author": "<p>Author's name<\/p>"
           }
         },
-        "testimonial-6": {
+        "0d4fb427-310e-4a22-9517-b0c2c53c426c": {
           "type": "testimonial",
           "settings": {
             "star_rating": "4.5",
@@ -480,7 +488,8 @@
         "testimonial-3",
         "testimonial-4",
         "testimonial-5",
-        "testimonial-6"
+        "testimonial-6",
+        "0d4fb427-310e-4a22-9517-b0c2c53c426c"
       ],
       "settings": {
         "title": "What people are saying",
