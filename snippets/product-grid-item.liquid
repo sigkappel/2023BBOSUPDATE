@@ -441,7 +441,7 @@
      
   
   
-      {% unless product.tags contains 'localsonly' %}
+      {% unless product.tags contains 'localsonly' %}{%# Sigmundt - add auction condition remove product badge when it's an auction item  #%}
           {% unless product_compare %}
             {% if settings.product_show_vendor and product.vendor != blank %}
               <span class="productitem--vendor">
@@ -451,6 +451,7 @@
           {% endunless %}
         {% endunless %}
 
+        
 
         {%# sigisig - add auction condition remove product badge when it's an auction item  #%}
         {% unless tags_str contains "auction" %}
