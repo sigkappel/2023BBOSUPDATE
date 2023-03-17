@@ -339,7 +339,7 @@
               {% endif %}
 
             {% when 'form' %}
-            {% unless product.tags contains 'localsonly' or  tags_str contains "auction" %}    {% # Sigmundt - localsonly tag remove the inventory %}
+            {% unless product.tags contains 'localsonly'  %}    {% # Sigmundt - localsonly tag remove the inventory %}
             
               <div
                 class="product-form--regular"
