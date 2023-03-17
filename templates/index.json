@@ -149,7 +149,7 @@
         "color": "#ffffff",
         "overlay_background": "#000000",
         "overlay_opacity": 0,
-        "link": "",
+        "link": "shopify:\/\/pages\/big-box-outlet-store-locations",
         "button_text": "Find a Store"
       }
     },
@@ -208,7 +208,7 @@
             "title": "Lower Mainland",
             "text": "4 Locations",
             "color": "#ffffff",
-            "block_link": "",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": false,
@@ -223,7 +223,7 @@
             "title": "Fraser Valley",
             "text": "3 Locations",
             "color": "#ffffff",
-            "block_link": "",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
@@ -238,7 +238,7 @@
             "title": "Okanagan",
             "text": "4 Locations",
             "color": "#ffffff",
-            "block_link": "",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
@@ -253,7 +253,7 @@
             "title": "Edmonton",
             "text": "1 Locations",
             "color": "#ffffff",
-            "block_link": "",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": false,
@@ -288,7 +288,7 @@
         "subheading": "<p>Own brand name furniture at up to 70% off, always re-certified and always in-style.<\/p>",
         "text_alignment": "left",
         "button_label": "Find a Store",
-        "button_link": "shopify:\/\/pages\/search-results"
+        "button_link": "shopify:\/\/pages\/big-box-outlet-store-locations"
       }
     },
     "dynamic_collection_list": {
