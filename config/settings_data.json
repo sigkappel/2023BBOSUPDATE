@@ -661,28 +661,25 @@
           "c365b2c9-c6f6-47ad-b05c-e5a518348453": {
             "type": "testimonial",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
               "star_rating": "5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
+              "text": "<p>Great staff... . I knew when it came to buying furniture that this is where I needed to go and within 15 minutes we had the best deal! Thanks for giving us the best service. All the best!<\/p>",
+              "author": "<p>Avi<\/p>"
             }
           },
           "ea71affe-f7d6-4965-bfdf-41d995431225": {
             "type": "testimonial",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
               "star_rating": "5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
+              "text": "<p>Always a great experience coming here! Have found some really good items at amazing prices, excellent staff working there ... Definitely recommend stopping by if you’re in the area<\/p>",
+              "author": "<p>Sydney<\/p>"
             }
           },
           "880cba26-3505-4bac-8e08-8931c6f6d33d": {
             "type": "testimonial",
             "settings": {
-              "image": "shopify:\/\/shop_images\/7123025_logo_google_g_icon_cb18d649-d86f-4c17-a672-b2164e42a9be.png",
               "star_rating": "5",
-              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-              "author": "<p>Author's name<\/p>"
+              "text": "<p>... On Boxing Day I discovered the Big Box Outlet in Langley. They’ve got so much.If you want a good price on laundry sets and home appliances, check them out. <\/p>",
+              "author": "<p>Marivick<\/p>"
             }
           },
           "55dc979e-75e6-44cc-aa29-1de079a1d275": {
@@ -711,6 +708,14 @@
               "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
               "author": "<p>Author's name<\/p>"
             }
+          },
+          "1130a5a7-23b3-461b-8bbe-79e777ff468b": {
+            "type": "testimonial",
+            "settings": {
+              "star_rating": "4.5",
+              "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+              "author": "<p>Author's name<\/p>"
+            }
           }
         },
         "block_order": [
@@ -719,7 +724,8 @@
           "880cba26-3505-4bac-8e08-8931c6f6d33d",
           "55dc979e-75e6-44cc-aa29-1de079a1d275",
           "6b59f720-da35-426f-b538-c69467246391",
-          "ac4f4325-92b1-4c22-96e7-cfb6ee46f360"
+          "ac4f4325-92b1-4c22-96e7-cfb6ee46f360",
+          "1130a5a7-23b3-461b-8bbe-79e777ff468b"
         ],
         "settings": {
           "title": "Testimonials",
