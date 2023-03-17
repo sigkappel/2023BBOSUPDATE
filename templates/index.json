@@ -297,7 +297,7 @@
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": "small-appliances",
+            "collection": "large-appliances",
             "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Appliances.jpg",
             "title": "Appliances"
           }
@@ -337,9 +337,9 @@
         "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": "laptop-cases-bags",
+            "collection": "all-electronics",
             "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Top-Catagories-Laptops-Phones.jpg",
-            "title": "Laptops & Phones"
+            "title": "Electronics"
           }
         }
       },
