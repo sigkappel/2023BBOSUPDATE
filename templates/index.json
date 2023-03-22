@@ -374,9 +374,9 @@
             "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_text": "Find a Store",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#ffffff",
+            "opacity": 33
           }
         },
         "d3de4807-5c07-4f86-a1ea-3a355011ca44": {
