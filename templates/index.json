@@ -166,9 +166,9 @@
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#ffffff",
+            "opacity": 31
           }
         },
         "promotion-4": {
@@ -181,9 +181,9 @@
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 54
+            "show_overlay": true,
+            "background": "#ffffff",
+            "opacity": 33
           }
         }
       },
