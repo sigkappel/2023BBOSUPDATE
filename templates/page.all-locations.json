@@ -15,6 +15,13 @@
         "button_text": ""
       }
     },
+    "50d68686-d03c-4839-8dc4-8df899c0b746": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "",
+        "custom_html": "<center>\n<div style=\"max-width:700px;\"> \n<h1 style=\"margin:0px;\">More In-Store<\/h1>\n<h4 style=\"margin:0px; color:#003da5\">Discover New Deals Daily<\/h4>\n\n<p>Our team is dedicated to delivering a bigger shopping experience. Bigger inventory, bigger customer service and bigger savings. With 11 locations in British Columbia and our newest twelfth store in Edmonton, find a Big Box Outlet near you.<\/p>\n<\/div>\n<\/center>"
+      }
+    },
     "main": {
       "type": "page",
       "custom_css": [
@@ -43,6 +50,7 @@
   },
   "order": [
     "b3c719bc-af5e-4264-b021-5420a07cac89",
+    "50d68686-d03c-4839-8dc4-8df899c0b746",
     "main",
     "4a8fa1e7-f6b6-4450-ad47-00af5531d5b2"
   ]
