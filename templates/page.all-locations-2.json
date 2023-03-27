@@ -27,16 +27,17 @@
     "4a8fa1e7-f6b6-4450-ad47-00af5531d5b2": {
       "type": "dynamic-image-with-text",
       "settings": {
-        "section_heading": "Image with text",
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Shop-Online.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
-        "heading": "Image with text",
-        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "heading": "Shop Our Online Inventory",
+        "subheading": "<p>Prefer to shop from the comfort of your home? We got you. Shop exclusive online re-certified inventory posted daily, including live auctions and more.<\/p>",
         "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
+        "button_label": "Shop Online",
+        "button_link": "shopify:\/\/collections\/all"
       }
     }
   },
