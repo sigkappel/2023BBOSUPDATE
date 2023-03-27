@@ -19,10 +19,26 @@
       "type": "page",
       "settings": {
       }
+    },
+    "4a8fa1e7-f6b6-4450-ad47-00af5531d5b2": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "Image with text",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Image with text",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "b3c719bc-af5e-4264-b021-5420a07cac89",
-    "main"
+    "main",
+    "4a8fa1e7-f6b6-4450-ad47-00af5531d5b2"
   ]
 }
