@@ -1,5 +1,20 @@
 {
   "sections": {
+    "b3c719bc-af5e-4264-b021-5420a07cac89": {
+      "type": "imagewithtextoverlay-about",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Hero-Image.jpg",
+        "title": "Shop In-Store",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "",
+        "button_text": ""
+      }
+    },
     "main": {
       "type": "page",
       "settings": {
@@ -7,6 +22,7 @@
     }
   },
   "order": [
+    "b3c719bc-af5e-4264-b021-5420a07cac89",
     "main"
   ]
 }
