@@ -19,7 +19,7 @@
       "type": "dynamic-html",
       "settings": {
         "title": "",
-        "custom_html": "<center>\n<div style=\"max-width:700px;\"> \n<h1 style=\"margin:0px;\">More In-Store<\/h1>\n<h4 style=\"margin:0px; color:#003da5\">Discover New Deals Daily<\/h4>\n\n<p>Our team is dedicated to delivering a bigger shopping experience. Bigger inventory, bigger customer service and bigger savings. With 11 locations in British Columbia and our newest twelfth store in Edmonton, find a Big Box Outlet near you.<\/p>\n<\/div>\n<\/center>"
+        "custom_html": "<center>\n<div style=\"max-width:700px;\"> \n<h1 style=\"margin:0px;\">More In-Store<\/h1>\n<h4 style=\"margin:0px; color:#003da5\">Discover New Deals Daily<\/h4>\n\n<p>Our team is dedicated to delivering a bigger shopping experience. Bigger inventory, bigger customer service and bigger savings.  With multiple locations across British Columbia and Alberta in Edmonton, find a Big Box Outlet near you.<\/p>\n<\/div>\n<\/center>"
       }
     },
     "main": {
