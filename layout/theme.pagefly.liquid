@@ -11,8 +11,11 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   </script>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-
+<!-- commenting this out to use an alternative way to link in font awesome.
     <script src="https://kit.fontawesome.com/9869811689.js" crossorigin="anonymous"></script>
+-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     
     <link rel="preconnect" href="https://cdn.shopify.com">
     <link rel="preconnect" href="https://fonts.shopifycdn.com">
@@ -118,4 +121,56 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
   </head>
 
   <body class="template-{{ template.name }}" data-instant-allow-query-string {% if settings.reduce_animations %}data-reduce-animations{% endif %}><div class="pagefly-container">{{ content_for_layout }}</div></body>
-</html>
+</html>        <!-- Start-MakeAnOffer version: 7 -->
+        <script>
+          var makeAnOfferData = (function() {
+            var data = {
+              product: null,
+              cartProducts: [],
+              currency_iso_code: "{{ currency.iso_code }}",
+              settings: {{ shop.metafields.make_an_offer.user_setting | json }},
+              customer_email: "{{ customer.email }}"
+            };
+
+            {% if product %}
+              data.product = (function() {
+                var mf_featured_image = "{{ product.selected_or_first_available_variant.featured_image | default: product.featured_image | img_url: '1024x1024'}}";
+                var mf_other_image = "{{ product.images.first | img_url: '1024x1024' }}";
+                return {
+                  title: {{ product.title | json }},
+                  price: "{{ product.price | money_without_currency }}",
+                  currency: {{ shop.money_format | json }},
+                  image: mf_featured_image || mf_other_image,
+                  variants: {{ product.variants | json }},
+                  tags: {{ product.tags | json }},
+                  collections: {{ product.collections | json }},
+                  url: "{{ product.url | within: collections.all }}",
+                  available: {{ product.available }}
+                }
+              })();
+            {% endif %}
+
+            {% if cart.items.size > 0 %}
+              {% for item in cart.items %}
+                data.cartProducts.push(function() {
+                  return {
+                    title: {{ item.product.title | json }},
+                    price: `{{ item.price | money }}`,
+                    image: "{{ item | img_url: '1024x1024' }}",
+                    variants: {{ item.variants | json }},
+                    variant_id: "{{ item.variant.id }}",
+                    url: "{{ item.url | within: collections.all }}",
+                    sku: "{{ item.sku }}",
+                    tags: {{ item.product.tags | json }},
+                    collections: {{ item.product.collections | json }},
+                    available: {{ item.product.available }}
+                  }
+                }());
+              {% endfor %}
+            {% endif %}
+
+            return data;
+          })();
+
+        </script>
+        <!-- End-MakeAnOffer -->
