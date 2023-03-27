@@ -35,7 +35,7 @@
         "mobile_image_alignment": "top",
         "heading": "Shop Our Online Inventory",
         "subheading": "<p>Prefer to shop from the comfort of your home? We got you. Shop exclusive online re-certified inventory posted daily, including live auctions and more.<\/p>",
-        "text_alignment": "left",
+        "text_alignment": "center",
         "button_label": "Shop Online",
         "button_link": "shopify:\/\/collections\/all"
       }
