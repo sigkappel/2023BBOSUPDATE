@@ -23206,7 +23206,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   width: 100%;
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-  --meganav-sidenav-columns: 3;
+  --meganav-sidenav-columns: 2; /* Sigmundt - changed from 3 to 2 */ 
   position: absolute;
   top: {{ space_small | divided_by: 16.0 | append: 'rem' }};
   right: 0;
@@ -23216,7 +23216,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 }
 @media screen and (min-width: 1280px) {
   .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-    --meganav-sidenav-columns: 4;
+    --meganav-sidenav-columns: 2; /* Sigmundt - Changed from 4 to 2 */
   }
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3.navmenu-submenu.navmenu {
