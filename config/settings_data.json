@@ -120,6 +120,7 @@
         "blocks": {
           "c6dbae84-3af1-4d5f-b277-75a4434ee15b": {
             "type": "meganav_sidenav",
+            "disabled": true,
             "settings": {
               "meganav_trigger": "Shop Online",
               "submenu_layout": "text_columns",
