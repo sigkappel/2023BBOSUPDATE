@@ -159,7 +159,7 @@
         "promotion-3": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Cleaning-Products.jpg",
+            "image": "shopify:\/\/shop_images\/bbosproducts1_dcdd4994-c10f-49d4-a067-6ba5380517ea.jpg",
             "title": "Your favourite cleaning products for less",
             "text": "Every day cleaning products and brand name vacuums, steamers, and accessories up to 70% off",
             "color": "#222222",
@@ -174,7 +174,7 @@
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Fashionw.jpg",
+            "image": "shopify:\/\/shop_images\/clothingandfashion.jpg",
             "title": "Name brand fashion and accessories",
             "text": "Clothing for all occasions, including shoes, bags and purses, jewelry and more.",
             "color": "#222222",
@@ -190,6 +190,9 @@
       "block_order": [
         "promotion-3",
         "promotion-4"
+      ],
+      "custom_css": [
+        "this.promo-block--content {background: linear-gradient( to left, transparent, rgba(255, 255, 255, 0.5) ) !important;}"
       ],
       "settings": {
         "title": "",
@@ -367,7 +370,7 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Discover-More-Instore-01.jpg",
+            "image": "shopify:\/\/shop_images\/small-appliances.jpg",
             "title": "There's always more to discover in-store",
             "text": "You will find it all at Big Box Outlet Store: tech, fashion, outdoor gear, hardware, kitchenware, furniture - even groceries",
             "color": "#000000",
