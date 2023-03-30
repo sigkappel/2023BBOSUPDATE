@@ -168,7 +168,7 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#ffffff",
-            "opacity": 31
+            "opacity": 1
           }
         },
         "promotion-4": {
@@ -183,7 +183,7 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#ffffff",
-            "opacity": 33
+            "opacity": 1
           }
         }
       },
@@ -376,7 +376,7 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#ffffff",
-            "opacity": 33
+            "opacity": 1
           }
         },
         "d3de4807-5c07-4f86-a1ea-3a355011ca44": {
