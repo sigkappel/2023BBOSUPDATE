@@ -294,12 +294,6 @@
             "settings": {
             }
           },
-          "static-footer-0": {
-            "type": "menu",
-            "settings": {
-              "menu": "main-menu"
-            }
-          },
           "039d2615-7372-4518-a3e1-72a5226398a8": {
             "type": "menu",
             "settings": {
@@ -323,7 +317,6 @@
         },
         "block_order": [
           "1525917388379",
-          "static-footer-0",
           "039d2615-7372-4518-a3e1-72a5226398a8",
           "1525917503362",
           "79f00bd2-1d7d-4704-a6ed-41d935eeebd7"
