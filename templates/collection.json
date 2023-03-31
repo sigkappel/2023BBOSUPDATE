@@ -6,10 +6,10 @@
         "filter-1": {
           "type": "filter",
           "settings": {
-            "filter_option": "faceted",
+            "filter_option": "tag",
             "filter_groups": "expand_first",
             "show_filter_product_count": true,
-            "filter_style": "tags",
+            "filter_style": "groups",
             "filter_limit": "999",
             "grid_categories": "",
             "custom_ordered_categories": "",
