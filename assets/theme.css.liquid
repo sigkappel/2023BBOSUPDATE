@@ -22902,6 +22902,8 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   display: block;
   height: var(--menu-open-height, auto);
   opacity: 1;
+  overflow:auto; /* Sigmundt - adding a scroll bar to the dropdown menu */
+  max-height: 55vh; /* Sigmundt - set the max height to 55vh */
 }
 .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open] > .navmenu-item {
   opacity: 1;
