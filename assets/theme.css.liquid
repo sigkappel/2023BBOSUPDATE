@@ -22857,7 +22857,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 }
 .navmenu-submenu.navmenu-meganav[data-animation-state=open] {
   display: block;
-  height: var(--menu-open-height, auto);
+  height: , auto);
   opacity: 1;
 }
 .navmenu-submenu.navmenu-meganav[data-animation-state=open] .navmenu-meganav-wrapper,
@@ -22897,9 +22897,19 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   transition: opacity 125ms cubic-bezier(0.4, 0, 1, 1) 75ms, transform 150ms cubic-bezier(0.4, 0, 1, 1);
 }
 .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open] {
+
+  /* Sigmundt - Mod this so the menu has a scroll bar and the hight is 60vh */
+  
   display: block;
-  height: var(--menu-open-height, auto);
+  height: var(--menu-open-height, auto); 
+  max-height: 65vh;
+  overflow-y:auto;
+  overflow-x:hidden;
+   
   opacity: 1;
+
+
+  
 }
 .navmenu-submenu:not(.navmenu-meganav)[data-animation-state=open] > .navmenu-item {
   opacity: 1;
@@ -24415,13 +24425,6 @@ div.navmenu-meganav.navmenu-meganav--desktop {
     max-height: 60vh !important;
 }
 
-  /* Sigmundt - menu updates adding a scrollbar  */
 
-ul.navmenu.navmenu-depth-2.navmenu-submenu {
-    overflow-y: auto;
-    max-height: 65VH;
-    width: 265px;
-    overflow-x: hidden;
-}
   
 
