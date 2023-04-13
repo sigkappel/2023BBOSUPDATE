@@ -118,18 +118,15 @@
       "static-header": {
         "type": "static-header",
         "blocks": {
-          "a5e3b671-c348-434b-a65a-9d7b64e9b346": {
-            "type": "meganav_sidenav",
+          "24d46915-21a6-447e-85a1-c308e520742e": {
+            "type": "multi_column_menu",
             "settings": {
-              "meganav_trigger": "shop online",
-              "submenu_layout": "text_columns",
-              "image_aspect_ratio": "natural",
-              "image_crop": true
+              "menu_trigger": "shop online"
             }
           }
         },
         "block_order": [
-          "a5e3b671-c348-434b-a65a-9d7b64e9b346"
+          "24d46915-21a6-447e-85a1-c308e520742e"
         ],
         "settings": {
           "sticky_header": true,
