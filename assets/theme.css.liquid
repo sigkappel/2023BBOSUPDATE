@@ -14541,7 +14541,9 @@ html body .home-section--content .promo-mosaic--inner.promo-mosaic--compressed .
   transition: border 100ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 100ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .live-search-form:hover, .live-search--focused .live-search-form {
-  border-color: {{ color_border | color_modify: 'alpha', 0.25 }};
+
+   /* Sigmundt - comment out the border color
+    border-color: {{ color_border | color_modify: 'alpha', 0.25 }}; */
   box-shadow: 0 3px 7px {{ color_border | color_modify: 'alpha', 0.16 }};
 }
 .live-search-form .form-field {
@@ -19305,16 +19307,23 @@ shopify-payment-terms {
 }
 @media screen and (min-width: 480px) {
   .modal--quickshop-slim .product-form__action-wrapper, .modal--quickshop-full:not(.hotspot__modal) .product-form__action-wrapper, .featured-product__container .product-form__action-wrapper, .product__container--quick-shop .product-form__action-wrapper {
-    align-items: flex-end;
-    flex-direction: row;
+      /* align-items: flex-end;
+    flex-direction: row; */ /*Sigmundt - chaning flex rules for the new make an offer button */
+
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 @media screen and (min-width: 480px) {
   .product__container--two-columns .product-form__action-wrapper {
-    align-items: flex-end;
-    flex-direction: row;
+   /* align-items: flex-end;
+    flex-direction: row; */ /*Sigmundt - chaning flex rules for the new make an offer button */
+
+    flex-direction: column;
+    align-items: stretch;
   }
 }
+
 @media screen and (min-width: 720px) {
   .product__container--two-columns .product-form__action-wrapper {
     flex-direction: column;
@@ -19323,14 +19332,20 @@ shopify-payment-terms {
 }
 @media screen and (min-width: 860px) {
   .product__container--two-columns .product-form__action-wrapper {
-    align-items: flex-end;
-    flex-direction: row;
+    /* align-items: flex-end;
+    flex-direction: row; */ /*Sigmundt - chaning flex rules for the new make an offer button */
+
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 @media screen and (min-width: 480px) {
   .product__container--three-columns .product-form__action-wrapper {
-    align-items: flex-end;
-    flex-direction: row;
+    /* align-items: flex-end;
+    flex-direction: row; */ /*Sigmundt - chaning flex rules for the new make an offer button */
+
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -23554,7 +23569,7 @@ body:not(.user-is-tabbing) .navmenu-meganav-sidenav__item .navmenu-item-text:foc
   overflow-y: auto;
 }
 .site-header-sticky .site-navigation .navmenu-meganav.navmenu-meganav--desktop .navmenu-multi-column-items.navmenu-meganav-wrapper {
-  max-height: 70vh;
+  max-height: 60vh; /*Sigmundt - changed it from 70 to 60 to give more space under the menu*/
 }
 .site-navigation .navmenu-meganav.navmenu-meganav--desktop .navmenu-multi-column-items .navmenu-depth-2 {
   display: block;
@@ -24210,6 +24225,7 @@ div.landingheading h1 {
 
 
 /* earn rewards menu item */
+/* Sigmundt - earn rewards menu item */
 
 .navmenu-id-earn-rewards-today a
 {
@@ -24219,10 +24235,32 @@ div.landingheading h1 {
  background-image: linear-gradient(#FCDE01, #FCC100); /* Standard syntax (must be last) */
 
     border-radius: 10px;
-      font-size: 1.05rem !important;
+
+  padding:10px;
 
 }
 
+
+navmenu-id-earn-rewards-today a
+{
+    color: #0A3CA5!important;
+    background-color: #FADB00;
+
+ background-image: linear-gradient(#FCDE01, #FCC100); /* Standard syntax (must be last) */
+
+    border-radius: 10px;
+
+  padding:10px;
+
+}
+
+
+.site-footer-wrapper li.navmenu-item.navmenu-id-earn-rewards-today
+{
+ 
+  margin:10px 0 10px 0;
+
+}
 
 /*Remove the spacing on images on flyers*/
 
@@ -24317,4 +24355,61 @@ div.wide div#left {
 .template-product .tpa-remaining .tpa-remaining__text .tpa-remaining__text__block {
     color: #ffffff;
 }
+
+/* -- Sigmundt - putting in blog formatting updates --*/
+
+figure.article-image.article-image--content-width {
+  display: none;
+}
+
+h1.article--title {
+  display: none;
+}
+
+
+.article--inner {
+  padding-right: 25px;
+  padding-left: 25px;
+  max-width: 1024px;
+}
+/* Sigmundt - pagination styling to make it look more like buttons */
+.pagination--item {
+ 
+  border: 1px solid;
+  border-radius: 5px;
+  background: #003da5;
+  color: #ffffff;
+   min-width: 45px;
+}
+
+.pagination--active .pagination--item {
+  font-style: normal;
+  font-weight: 700;
+  color: #003da5;
+  background: #ffffff;
+}
+
+.pagination--inner a, .pagination--inner a:hover {
+color: #ffffff;
+
+/* Sigmundt - make the product page form have a wrap so the make an offer button pushes down */
+.product__container--two-columns .product-form__action-wrapper {
+ flex-wrap: wrap;
+}
+
+/* Sigmundt - meganav size adjustments */
+
+div.navmenu-meganav.navmenu-meganav--desktop {
+  width: 60% !important;
+  
+}
+
+.site-header-sticky .navmenu-meganav-wrapper {
+  max-height: 60vh !important;
+}
+
+
+
+
+
 
