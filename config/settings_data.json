@@ -121,7 +121,7 @@
           "c6dbae84-3af1-4d5f-b277-75a4434ee15b": {
             "type": "meganav_sidenav",
             "settings": {
-              "meganav_trigger": "Shop Online",
+              "meganav_trigger": "",
               "submenu_layout": "text_columns",
               "image_aspect_ratio": "natural",
               "image_crop": true
