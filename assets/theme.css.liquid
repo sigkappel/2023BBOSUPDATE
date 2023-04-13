@@ -22901,8 +22901,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   /* Sigmundt - Mod this so the menu has a scroll bar and the hight is 60vh */
   
   display: block;
-  max-height: 65vh;
-  overflow:auto;
+/*  height: var(--menu-open-height, auto); 
   opacity: 1;
 
 
@@ -22995,7 +22994,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   top: auto;
   left: 0;
   float: left;
-  width: 80%; /* Sigmundt - Changed it from 100% to 80% - provides room for the user to click off of it. */
+  width: 50%; /* Sigmundt - Changed it from 100% to 50% - provides room for the user to click off of it. */
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 8px;
@@ -23193,7 +23192,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 }
 
 .navmenu-meganav-sidenav__items {
-  width: 25%; /* Sigmundt changed this 50% from 25% to make the first order of items take up space - changed back */
+  width: 50%; /* Sigmundt changed this 50% from 25% to make the first order of items take up space */
   overflow: auto;
   border-right: 1px solid {{ border_mix | color_modify: 'alpha', 0.15 }};
 }
@@ -23213,17 +23212,17 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   width: 100%;
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-  --meganav-sidenav-columns: 3; /* Sigmundt - changed back */ 
+  --meganav-sidenav-columns: 1; /* Sigmundt - changed from 3 to 1 */ 
   position: absolute;
   top: {{ space_small | divided_by: 16.0 | append: 'rem' }};
   right: 0;
-  left: 25%; /* Sigmundt - Changed from 25% to 50% - back to 25%*/
+  left: 50%; /* Sigmundt - Changed from 25% to 50% */
   padding: {{ space_small | divided_by: 16.0 | append: 'rem' }} 25px 0 {{ space_large | divided_by: 16.0 | append: 'rem' }};
   overflow: auto;
 }
 @media screen and (min-width: 1280px) {
   .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-    --meganav-sidenav-columns: 4; /* Sigmundt - Changed from 4 to 2 - back to 4  */
+    --meganav-sidenav-columns: 2; /* Sigmundt - Changed from 4 to 2 */
   }
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3.navmenu-submenu.navmenu {
@@ -23237,8 +23236,8 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  padding: {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 0 {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 25px;
+  padding: 5px 0 5px 25px; /* Sigmundt - Setting new padding on the megamenu
+ /* padding: {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 0 {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 25px; */
   font-weight: 400; /* Sigmundt - Reduce the weight to 400*/
   line-height: 1.3;
   cursor: pointer;
@@ -23250,7 +23249,8 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 .navmenu-meganav-sidenav__items--images .navmenu-depth-3 {
   grid-template-columns: repeat(var(--meganav-sidenav-columns), 1fr);
   grid-auto-rows: max-content;
- grid-gap: {{ space_large | divided_by: 16.0 | append: 'rem' }};
+  grid-gap: 5px; /* Sigmundt - change grid gap */
+  /* grid-gap: {{ space_large | divided_by: 16.0 | append: 'rem' }}; */
   align-items: start;
 }
 .navmenu-meganav-sidenav__items--images .navmenu-depth-3[data-animation-state=open], .navmenu-meganav-sidenav__items--images .navmenu-depth-3[data-animation] {
@@ -23295,8 +23295,8 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 }
 .navmenu-meganav-sidenav__items--text-columns .navmenu-depth-3 .navmenu-link {
   display: block;
-   
- margin: 0 0 calc({{ space_x_small | divided_by: 16.0 | append: 'rem' }} * 2); 
+    margin: 10px 0 10px 0; /* Sigmundt - update the margin on the mega menu */
+  /* margin: 0 0 calc({{ space_x_small | divided_by: 16.0 | append: 'rem' }} * 2); */
 }
 .navmenu-meganav-sidenav__items--text-columns .navmenu-depth-3 .navmenu-item:last-child {
   margin-bottom: 0;
@@ -24408,6 +24408,17 @@ color: #ffffff;
 /* Sigmundt - make the product page form have a wrap so the make an offer button pushes down */
 .product__container--two-columns .product-form__action-wrapper {
    flex-wrap: wrap;
+}
+
+/* Sigmundt - meganav size adjustments */
+  
+div.navmenu-meganav.navmenu-meganav--desktop {
+    width: 60% !important;
+    
+}
+
+.site-header-sticky .navmenu-meganav-wrapper {
+    max-height: 60vh !important;
 }
 
 
