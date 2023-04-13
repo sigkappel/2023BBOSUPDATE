@@ -124,10 +124,17 @@
             "settings": {
               "menu_trigger": "shop online"
             }
+          },
+          "cf833459-1d39-40ff-8b17-10861c247c21": {
+            "type": "multi_column_menu",
+            "settings": {
+              "menu_trigger": "shop online"
+            }
           }
         },
         "block_order": [
-          "24d46915-21a6-447e-85a1-c308e520742e"
+          "24d46915-21a6-447e-85a1-c308e520742e",
+          "cf833459-1d39-40ff-8b17-10861c247c21"
         ],
         "settings": {
           "sticky_header": true,
