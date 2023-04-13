@@ -120,6 +120,7 @@
         "blocks": {
           "24d46915-21a6-447e-85a1-c308e520742e": {
             "type": "multi_column_menu",
+            "disabled": true,
             "settings": {
               "menu_trigger": "shop online"
             }
