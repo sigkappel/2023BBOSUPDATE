@@ -22996,7 +22996,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   top: auto;
   left: 0;
   float: left;
-  width: 50%; /* Sigmundt - Changed it from 100% to 50% - provides room for the user to click off of it. */
+  width: 80%; /* Sigmundt - Changed it from 100% to 50% - provides room for the user to click off of it. */
   padding-top: 0;
   padding-bottom: 0;
   margin-top: 8px;
@@ -23194,7 +23194,7 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 }
 
 .navmenu-meganav-sidenav__items {
-  width: 50%; /* Sigmundt changed this 50% from 25% to make the first order of items take up space */
+  width: 25%; /* Sigmundt changed this 50% from 25% to make the first order of items take up space - changed back */
   overflow: auto;
   border-right: 1px solid {{ border_mix | color_modify: 'alpha', 0.15 }};
 }
@@ -23214,17 +23214,17 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   width: 100%;
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-  --meganav-sidenav-columns: 1; /* Sigmundt - changed from 3 to 1 */ 
+  --meganav-sidenav-columns: 3; /* Sigmundt - changed back */ 
   position: absolute;
   top: {{ space_small | divided_by: 16.0 | append: 'rem' }};
   right: 0;
-  left: 50%; /* Sigmundt - Changed from 25% to 50% */
+  left: 25%; /* Sigmundt - Changed from 25% to 50% - back to 25%*/
   padding: {{ space_small | divided_by: 16.0 | append: 'rem' }} 25px 0 {{ space_large | divided_by: 16.0 | append: 'rem' }};
   overflow: auto;
 }
 @media screen and (min-width: 1280px) {
   .navmenu-meganav-sidenav__items .navmenu-depth-3 {
-    --meganav-sidenav-columns: 2; /* Sigmundt - Changed from 4 to 2 */
+    --meganav-sidenav-columns: 4; /* Sigmundt - Changed from 4 to 2 - back to 2  */
   }
 }
 .navmenu-meganav-sidenav__items .navmenu-depth-3.navmenu-submenu.navmenu {
