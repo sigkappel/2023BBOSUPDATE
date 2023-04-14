@@ -4,9 +4,26 @@
       "type": "page",
       "settings": {
       }
+    },
+    "1681430803384709b7": {
+      "type": "apps",
+      "blocks": {
+        "88c9d214-d1b9-484a-ba2d-18a32ebebb8d": {
+          "type": "shopify:\/\/apps\/dropit-auctions\/blocks\/dropit_live_auction_app\/1afd18ab-bd48-4e4c-9c50-1bb8e71cea42",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "88c9d214-d1b9-484a-ba2d-18a32ebebb8d"
+      ],
+      "settings": {
+        "include_padding": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1681430803384709b7"
   ]
 }
