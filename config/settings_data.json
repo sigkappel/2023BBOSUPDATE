@@ -134,6 +134,7 @@
           },
           "66f40efb-cbbd-43b4-a582-9d56f0d7cc97": {
             "type": "meganav_images",
+            "disabled": true,
             "settings": {
               "meganav_trigger": "shop online",
               "text_1": "",
@@ -145,12 +146,22 @@
               "position_2": "first",
               "size_2": "small"
             }
+          },
+          "d1a7a29d-25cd-4bd1-b09a-9265d7c7b93b": {
+            "type": "meganav_sidenav",
+            "settings": {
+              "meganav_trigger": "shop online",
+              "submenu_layout": "text_columns",
+              "image_aspect_ratio": "natural",
+              "image_crop": true
+            }
           }
         },
         "block_order": [
           "24d46915-21a6-447e-85a1-c308e520742e",
           "cf833459-1d39-40ff-8b17-10861c247c21",
-          "66f40efb-cbbd-43b4-a582-9d56f0d7cc97"
+          "66f40efb-cbbd-43b4-a582-9d56f0d7cc97",
+          "d1a7a29d-25cd-4bd1-b09a-9265d7c7b93b"
         ],
         "settings": {
           "sticky_header": true,
