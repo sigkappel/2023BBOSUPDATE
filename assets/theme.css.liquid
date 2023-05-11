@@ -23292,6 +23292,10 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
 .navmenu-meganav-sidenav__items--text-columns .navmenu-depth-3 .navmenu-link {
   display: block;
   margin: 0 0 calc({{ space_x_small | divided_by: 16.0 | append: 'rem' }} * 2);
+
+  line-height: 1; /* Sigmundt - I add this to reduce the spacing a smidge.*/
+
+  
 }
 .navmenu-meganav-sidenav__items--text-columns .navmenu-depth-3 .navmenu-item:last-child {
   margin-bottom: 0;
