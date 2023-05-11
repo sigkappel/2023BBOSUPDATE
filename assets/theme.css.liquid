@@ -23235,8 +23235,8 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   align-items: center;
   justify-content: space-between;
   padding: {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 0 {{ space_x_small | divided_by: 16.0 | append: 'rem' }} 25px;
-  font-weight: {{ fonts_type_body_weight_bolder }};
-  line-height: 1.3;
+  font-weight: 400; /* Sigmundt - removing this variable and put in a normal text weight of 400  {{ fonts_type_body_weight_bolder }}; */
+  line-height: 1; /* Sigmundt - Setting this to from 1.3 to 1 */
   cursor: pointer;
 }
 .navmenu-meganav.navmenu-meganav--desktop .navmenu-depth-2 .navmenu-meganav-sidenav__item-text > * {
