@@ -6,19 +6,19 @@
         "slide-1": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image_6466f419-ad88-40db-8774-88d248560a59.jpg",
-            "title": "Smart shoppers save big",
-            "text": "Shop quality open box items at a store near you",
+            "background_image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image_1901x495_630dbc34-2b30-441e-817f-96267ee6fd22.png",
+            "title": "",
+            "text": "",
             "color": "#ffffff",
             "link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "text_alignment": "left",
-            "button_one_label": "Find a Store",
+            "button_one_label": "",
             "button_one_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "secondary",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
