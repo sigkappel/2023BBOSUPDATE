@@ -1,12 +1,210 @@
 {
   "sections": {
+    "7db07776-9120-4c99-a182-aa6d951ec54a": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-0": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/bright-modern-kitchen.jpg",
+            "title": "High-End Appliances Without the High-End Price Tag",
+            "text": "",
+            "color": "#FFFFFF",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Visit Your Local Store",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 29
+          }
+        },
+        "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-1": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "title": "Slide 2",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#FFFFFF",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-0",
+        "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-1"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "medium",
+        "slideshow_text_below_image": true
+      }
+    },
     "main": {
       "type": "page",
       "settings": {
       }
+    },
+    "2fbc8ca2-90b3-4ce4-be7b-76146ed2b728": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-0": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+<\/p>",
+            "link": ""
+          }
+        },
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (201) 555-5555<\/p>",
+            "link": ""
+          }
+        },
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support<\/p>",
+            "link": ""
+          }
+        },
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-0",
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-1",
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-2",
+        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-3"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "25dcd8db-1319-475f-a938-bcfa45546358": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Miele.png",
+            "link": ""
+          }
+        },
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Whirlpool.png",
+            "link": ""
+          }
+        },
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lg_bc8031ee-a92c-4827-8107-4cc2560e2a88.png",
+            "link": ""
+          }
+        },
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_2.png",
+            "link": ""
+          }
+        },
+        "cb43e2e1-cdd0-4312-a6d0-65ff4833881c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_5.png",
+            "link": ""
+          }
+        },
+        "09434975-4340-4a55-a665-534083637ba4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_3.png",
+            "link": ""
+          }
+        },
+        "e674baf5-2b93-48e0-92d0-8abb8fabdfda": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_a7c8c838-ac56-499e-94a2-f04cb1bad62b.png",
+            "link": ""
+          }
+        },
+        "7c1a88bd-c2ee-48bf-a2c6-eb497c75f5ef": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_4_dc80daf1-c95e-4c82-83af-f41e5738cede.png",
+            "link": ""
+          }
+        },
+        "3cfd86e1-68fe-4131-8602-8a5a29fef666": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/download_1.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-0",
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-1",
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-2",
+        "template--19179275190584__25dcd8db-1319-475f-a938-bcfa45546358-16845292268c9b0c89-3",
+        "cb43e2e1-cdd0-4312-a6d0-65ff4833881c",
+        "09434975-4340-4a55-a665-534083637ba4",
+        "e674baf5-2b93-48e0-92d0-8abb8fabdfda",
+        "7c1a88bd-c2ee-48bf-a2c6-eb497c75f5ef",
+        "3cfd86e1-68fe-4131-8602-8a5a29fef666"
+      ],
+      "settings": {
+        "title": "Logo list"
+      }
     }
   },
   "order": [
-    "main"
+    "7db07776-9120-4c99-a182-aa6d951ec54a",
+    "main",
+    "2fbc8ca2-90b3-4ce4-be7b-76146ed2b728",
+    "25dcd8db-1319-475f-a938-bcfa45546358"
   ]
 }
