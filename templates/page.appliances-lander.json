@@ -9,7 +9,7 @@
             "background_image": "shopify:\/\/shop_images\/bright-modern-kitchen.jpg",
             "title": "High-End Appliances Without the High-End Price Tag",
             "text": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations",
             "text_alignment": "center",
             "button_one_label": "Visit Your Local Store",
@@ -29,7 +29,7 @@
           "settings": {
             "title": "Slide 2",
             "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "",
             "text_alignment": "center",
             "button_one_label": "Button",
@@ -161,80 +161,8 @@
     },
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {
-      }
-    },
-    "2fbc8ca2-90b3-4ce4-be7b-76146ed2b728": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-0": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping",
-            "text": "<p>When you spend $100+<\/p>",
-            "link": ""
-          }
-        },
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-1": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>+1 (201) 555-5555<\/p>",
-            "link": ""
-          }
-        },
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-2": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Chat With Us",
-            "text": "<p>We offer 24-hour chat support<\/p>",
-            "link": ""
-          }
-        },
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-3": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-pin",
-            "title": "Locations",
-            "text": "<p>Find a store near you<\/p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-0",
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-1",
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-2",
-        "template--19179275190584__2fbc8ca2-90b3-4ce4-be7b-76146ed2b728-16845245414ba1f753-3"
-      ],
-      "settings": {
-        "section_spacing": false,
-        "section_width": "full-width",
-        "icon_layout": "left",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
-        "background_color": "#f8f8f8",
-        "mobile_layout": "slider"
-      }
-    },
-    "b60e40e2-d87d-4c44-b077-0681602aa7fd": {
-      "type": "dynamic-html",
-      "settings": {
-        "title": "Custom HTML",
-        "custom_html": "<p>Write or paste your HTML code here<\/p>"
-      }
-    },
-    "97fe9d08-c5ca-4001-9309-1d70896fe982": {
-      "type": "richtext-about",
-      "settings": {
-        "width": "regular",
-        "title": "Rich text",
-        "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
       }
     }
   },
@@ -243,9 +171,6 @@
     "85e89996-443d-46b7-b26a-67095d022b33",
     "25dcd8db-1319-475f-a938-bcfa45546358",
     "b29f7458-e1bf-4667-bca5-476111671e0f",
-    "main",
-    "2fbc8ca2-90b3-4ce4-be7b-76146ed2b728",
-    "b60e40e2-d87d-4c44-b077-0681602aa7fd",
-    "97fe9d08-c5ca-4001-9309-1d70896fe982"
+    "main"
   ]
 }
