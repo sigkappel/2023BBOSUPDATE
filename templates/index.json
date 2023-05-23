@@ -25,6 +25,7 @@
         },
         "slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/23-05-19--23-05-21--CHITentSale-webbanner.jpg",
             "title": "",
