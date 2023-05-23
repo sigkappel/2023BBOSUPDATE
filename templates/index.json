@@ -23,6 +23,26 @@
             "overlay_opacity": 4
           }
         },
+        "6258dd19-0750-4546-a56f-12d80ba86d1f": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/bbos-ecom-auction-webbanner_786bca12-81d7-4c26-8c08-e24d0e0e0768.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "shopify:\/\/collections\/auction",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
         "slide-1": {
           "type": "slide",
           "settings": {
@@ -63,33 +83,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 4
           }
-        },
-        "6258dd19-0750-4546-a56f-12d80ba86d1f": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/bbos-ecom-auction-webbanner_786bca12-81d7-4c26-8c08-e24d0e0e0768.jpg",
-            "title": "",
-            "text": "",
-            "color": "#ffffff",
-            "link": "shopify:\/\/collections\/auction",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
-          }
         }
       },
       "block_order": [
         "404e998b-94c9-4059-beff-ce6136265510",
+        "6258dd19-0750-4546-a56f-12d80ba86d1f",
         "slide-1",
-        "slide-2",
-        "6258dd19-0750-4546-a56f-12d80ba86d1f"
+        "slide-2"
       ],
       "settings": {
         "enable_autoplay": true,
