@@ -3,6 +3,26 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
+        "404e998b-94c9-4059-beff-ce6136265510": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-05-24--23-05-30--CampingFishing-webbanner_c936e945-dad7-4981-b90e-7e1ac00052ea.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "shopify:\/\/blogs\/flyer\/23-05-24-23-05-30-camping-and-fishing",
+            "text_alignment": "left",
+            "button_one_label": "Shop",
+            "button_one_link": "shopify:\/\/collections\/all",
+            "button_one_style": "primary",
+            "button_two_label": "See Flyer",
+            "button_two_link": "shopify:\/\/blogs\/flyer\/23-05-24-23-05-30-camping-and-fishing",
+            "button_two_style": "secondary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
         "slide-1": {
           "type": "slide",
           "settings": {
@@ -44,26 +64,6 @@
             "overlay_opacity": 4
           }
         },
-        "404e998b-94c9-4059-beff-ce6136265510": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-05-24--23-05-30--CampingFishing-webbanner_c936e945-dad7-4981-b90e-7e1ac00052ea.jpg",
-            "title": "",
-            "text": "",
-            "color": "#1d1d1d",
-            "link": "shopify:\/\/blogs\/flyer\/23-05-24-23-05-30-camping-and-fishing",
-            "text_alignment": "left",
-            "button_one_label": "Shop",
-            "button_one_link": "shopify:\/\/collections\/all",
-            "button_one_style": "primary",
-            "button_two_label": "See Flyer",
-            "button_two_link": "shopify:\/\/blogs\/flyer\/23-05-24-23-05-30-camping-and-fishing",
-            "button_two_style": "secondary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
-          }
-        },
         "6258dd19-0750-4546-a56f-12d80ba86d1f": {
           "type": "slide",
           "settings": {
@@ -86,9 +86,9 @@
         }
       },
       "block_order": [
+        "404e998b-94c9-4059-beff-ce6136265510",
         "slide-1",
         "slide-2",
-        "404e998b-94c9-4059-beff-ce6136265510",
         "6258dd19-0750-4546-a56f-12d80ba86d1f"
       ],
       "settings": {
