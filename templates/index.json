@@ -3,6 +3,26 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
+        "slide-2": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-05-29--23-05-30--OAM-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "shopify:\/\/blogs\/flyer\/23-05-29-23-05-30-once-a-month-sale",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
+            "button_one_style": "secondary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
         "404e998b-94c9-4059-beff-ce6136265510": {
           "type": "slide",
           "settings": {
@@ -62,34 +82,13 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
-        },
-        "slide-2": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-05-29--23-05-30--OAM-webbanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#1d1d1d",
-            "link": "shopify:\/\/blogs\/flyer\/23-05-29-23-05-30-once-a-month-sale",
-            "text_alignment": "left",
-            "button_one_label": "",
-            "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
-            "button_one_style": "secondary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
-          }
         }
       },
       "block_order": [
+        "slide-2",
         "404e998b-94c9-4059-beff-ce6136265510",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1",
-        "slide-2"
+        "slide-1"
       ],
       "settings": {
         "enable_autoplay": true,
