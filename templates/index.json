@@ -18,7 +18,7 @@
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 4
           }
