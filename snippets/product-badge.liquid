@@ -166,3 +166,9 @@
   </span>
 {%- endif -%}
 {% comment %}Inject @pixelunion/shopify-price-ui/sale-badge end{% endcomment %}
+
+
+{% comment %}Check for "localsonly" tag{% endcomment %}
+{% if product.tags contains 'localsonly' %}
+  <div class="badge">Check Your Local Store</div>
+{% endif %}
