@@ -29,7 +29,6 @@
 {% endif %}
 
 {% assign sales_badge = settings.product_sales_badge %}
-
 {% assign sales_badge_style = settings.product_sales_badge_style %}
 
 {% comment %}Inject @pixelunion/shopify-price-ui/sale-badge begin{% endcomment %}
@@ -104,71 +103,59 @@
 
 {% assign product_available = product_available | default: product.available %}
 
-{%- if product_available != true -%}
-
-   {%- comment -%} Sigmundt - exception for locals only tag {%- endcomment -%}
-  {%- if product.tags contains 'localsonly' -%}
-  
-     <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
-      Check Your Local Store
-      </span>
-  
-    {%- else -%}
-  
-      <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
-        {{ 'product_price.badge.sold_out' | t }}
-      </span>
-
- {%- endif -%}
-    
-{%- elsif on_sale and sales_badge -%}
-  {% assign on_sale = on_sale | default: true %}
-  {% assign saved_price_single = savings_money_single | money %}
-  {% assign saved_price_range = savings_money_range | money %}
-  {% if savings_money_range <= 0 %}
-    {% assign on_sale = false %}
-  {% endif %}
-
-  <span class="{{ class_root }}__badge {{ class_root }}__badge--sale"
-    data-badge-sales
-    {% if on_sale != true %}style="display: none;"{% endif %}
-  >
-    <span data-badge-sales-range>
-      {% if sales_badge_style == 'percent' %}
-        {% if price_varies or compare_at_price_varies %}
-          {{ 'product_price.badge.sale_percentage_range_html' | t: savings: savings_percentage_range | strip_newlines }}
-        {% else %}
-          {{ 'product_price.badge.sale_percentage_single_html' | t: savings: savings_percentage_range | strip_newlines }}
-        {% endif %}
-      {% elsif sales_badge_style == 'money' %}
-        {% if price_varies or compare_at_price_varies %}
-          {{ 'product_price.badge.sale_money_range_html' | t: savings: saved_price_range | strip_newlines }}
-        {% else %}
-          {{ 'product_price.badge.sale_money_single_html' | t: savings: saved_price_range | strip_newlines }}
-        {% endif %}
-      {% else %}
-        {{ 'product_price.badge.sale' | t }}
-      {% endif %}
-    </span>
-    <span data-badge-sales-single style="display: none;">
-      {% if sales_badge_style == 'percent' %}
-        {{ 'product_price.badge.sale_percentage_single_html' | t: savings: savings_percentage_single | strip_newlines }}
-      {% elsif sales_badge_style == 'money' %}
-        {{ 'product_price.badge.sale_money_single_html' | t: savings: saved_price_single | strip_newlines }}
-      {% else %}
-        {{ 'product_price.badge.sale' | t }}
-      {% endif %}
-    </span>
-  </span>
-{%- elsif preorder_badge -%}
-  <span class="{{ class_root }}__badge {{ class_root }}__badge--pre-order">
-    {{ 'product_price.badge.pre_order' | t }}
-  </span>
-{%- endif -%}
-{% comment %}Inject @pixelunion/shopify-price-ui/sale-badge end{% endcomment %}
-
-
-{% comment %}Check for "localsonly" tag{% endcomment %}
+{% comment %}Check for "localsonly" tag and override all other badges{% endcomment %}
 {% if product.tags contains 'localsonly' %}
-  <div class="badge">Check Your Local Store</div>
+  <span class="{{ class_root }}__badge {{ class_root }}__badge--localsonly">
+    Check Your Local Store
+  </span>
+{% else %}
+  {%- if product_available != true -%}
+    <span class="{{ class_root }}__badge {{ class_root }}__badge--soldout">
+      {{ 'product_price.badge.sold_out' | t }}
+    </span>
+  {%- elsif on_sale and sales_badge -%}
+    {% assign on_sale = on_sale | default: true %}
+    {% assign saved_price_single = savings_money_single | money %}
+    {% assign saved_price_range = savings_money_range | money %}
+    {% if savings_money_range <= 0 %}
+      {% assign on_sale = false %}
+    {% endif %}
+
+    <span class="{{ class_root }}__badge {{ class_root }}__badge--sale"
+      data-badge-sales
+      {% if on_sale != true %}style="display: none;"{% endif %}
+    >
+      <span data-badge-sales-range>
+        {% if sales_badge_style == 'percent' %}
+          {% if price_varies or compare_at_price_varies %}
+            {{ 'product_price.badge.sale_percentage_range_html' | t: savings: savings_percentage_range | strip_newlines }}
+          {% else %}
+            {{ 'product_price.badge.sale_percentage_single_html' | t: savings: savings_percentage_range | strip_newlines }}
+          {% endif %}
+        {% elsif sales_badge_style == 'money' %}
+          {% if price_varies or compare_at_price_varies %}
+            {{ 'product_price.badge.sale_money_range_html' | t: savings: saved_price_range | strip_newlines }}
+          {% else %}
+            {{ 'product_price.badge.sale_money_single_html' | t: savings: saved_price_range | strip_newlines }}
+          {% endif %}
+        {% else %}
+          {{ 'product_price.badge.sale' | t }}
+        {% endif %}
+      </span>
+      <span data-badge-sales-single style="display: none;">
+        {% if sales_badge_style == 'percent' %}
+          {{ 'product_price.badge.sale_percentage_single_html' | t: savings: savings_percentage_single | strip_newlines }}
+        {% elsif sales_badge_style == 'money' %}
+          {{ 'product_price.badge.sale_money_single_html' | t: savings: saved_price_single | strip_newlines }}
+        {% else %}
+          {{ 'product_price.badge.sale' | t }}
+        {% endif %}
+      </span>
+    </span>
+  {%- elsif preorder_badge -%}
+    <span class="{{ class_root }}__badge {{ class_root }}__badge--pre-order">
+      {{ 'product_price.badge.pre_order' | t }}
+    </span>
+  {%- endif -%}
 {% endif %}
+{% comment %}Inject @pixelunion/shopify-price-ui/sale-badge end{% endcomment %}
