@@ -3,6 +3,26 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
+        "404e998b-94c9-4059-beff-ce6136265510": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-06-03-23-06-06-Edmonton-Grand-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "shopify:\/\/blogs\/flyer\/23-06-02-23-06-06-edmonton-grand-opening-countdown",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
         "slide-2": {
           "type": "slide",
           "settings": {
@@ -18,27 +38,6 @@
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
-          }
-        },
-        "404e998b-94c9-4059-beff-ce6136265510": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-06-03-23-06-06-Edmonton-Grand-webbanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#1d1d1d",
-            "link": "shopify:\/\/blogs\/flyer\/23-06-02-23-06-06-edmonton-grand-opening-countdown",
-            "text_alignment": "left",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "secondary",
             "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 4
@@ -86,8 +85,8 @@
         }
       },
       "block_order": [
-        "slide-2",
         "404e998b-94c9-4059-beff-ce6136265510",
+        "slide-2",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
         "slide-1"
       ],
