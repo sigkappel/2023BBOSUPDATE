@@ -156,7 +156,46 @@
       "type": "dynamic-html",
       "settings": {
         "title": "",
-        "custom_html": "<div style=\"max-width: 1000px; padding-left: 20px; padding-right: 20px; margin-left: auto; margin-right: auto; text-align: center;\">\n\n\n<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<\/p>\n\n<h1>We believe in quality, affordability, and customer satisfaction.<\/h1>\n<p>Unbeatable Prices - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p>\n<p>60-Day Warranty - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p>\n<p>Hassle-Free Returns - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p>\n<p>Shop your local store for appliances today. <a href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\"><br>Find your local store here<\/a><\/p> <\/div>"
+        "custom_html": "<div style=\"max-width: 1000px; padding-left: 20px; padding-right: 20px; margin-left: auto; margin-right: auto; text-align: center;\">\n\n\n<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<\/p>\n\n<h1>We believe in quality, affordability, and customer satisfaction.<\/h1>\n<p>Unbeatable Prices - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p>\n<p>60-Day Warranty - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p>\n<p>Hassle-Free Returns - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p>\n<p>Shop your local store for appliances today. <a class=\"button\" href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\"><br><br>Find your local store here<\/a><\/p> <\/div>"
+      }
+    },
+    "c920dc37-87f2-4312-83c4-32fdd39d604c": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        },
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-2": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
+            "author": "<p>Author's name<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-0",
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-1",
+        "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-2"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "circle",
+        "text_size": "medium"
       }
     }
   },
@@ -165,6 +204,7 @@
     "827ed72a-9e71-44d9-ac8b-fe0a6627a748",
     "25dcd8db-1319-475f-a938-bcfa45546358",
     "main",
-    "bf74b3d7-e0a9-43ba-8737-3a5571a6bf22"
+    "bf74b3d7-e0a9-43ba-8737-3a5571a6bf22",
+    "c920dc37-87f2-4312-83c4-32fdd39d604c"
   ]
 }
