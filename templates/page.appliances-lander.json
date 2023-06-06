@@ -57,14 +57,11 @@
         "slideshow_text_below_image": true
       }
     },
-    "85e89996-443d-46b7-b26a-67095d022b33": {
-      "type": "richtext-about",
+    "827ed72a-9e71-44d9-ac8b-fe0a6627a748": {
+      "type": "dynamic-html",
       "settings": {
-        "width": "wide",
         "title": "",
-        "text": "<h1><strong>Welcome to Big Box Outlet Store - Where Quality Meets Savings!<\/strong><\/h1><p>At Big Box Outlet Store, we're revolutionizing the way you shop for home appliances. As your go-to discount store, we offer a diverse range of top-tier, brand-name appliances, from the kitchen to the laundry room, and everything in between - all at unbeatable prices!<\/p><h2><strong>Your Budget-Friendly Kitchen Upgrade<\/strong><\/h2><p>Dreaming of a kitchen makeover? Look no further. Discover our collection of recertified refrigerators, stoves, ovens, and dishwashers. Whether they're overstock, returns, or have minor cosmetic imperfections, each appliance is meticulously checked and recertified to ensure optimal performance. With us, you're not just saving money; you're investing in quality.<\/p><h2><strong>Reliable and Affordable Laundry Solutions<\/strong><\/h2><p>Say goodbye to overpriced washers and dryers. At Big Box Outlet Store, we bring you reliable, efficient laundry appliances that fit your needs and your budget. Our recertified units provide the same durability and performance as new, with the bonus of amazing discounts.<\/p><h2><strong>Each Big Box Outlet Store location boasts a large variety of brand-name appliances.<\/strong><\/h2><p>We source appliances from a veriety of vendors. Our stock is always changing. You'll find name brands like: Whirlpool, Samsung, LG, GE Appliances, Frigidaire, Maytag, Bosch, KitchenAid, Electrolux, Miele, Kenmore, and more.<\/p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
+        "custom_html": "<meta charset=\"UTF-8\">\n    <title>Welcome to Big Box Outlet Store<\/title>\n    <link href=\"https:\/\/themes.googleusercontent.com\/fonts\/css?kit=Lx1xfUTR4qFjwg0Z_pb902yWOW57Glq29V3__n4AGA7eUTbR4W0XOgE2iH4kL8Gh\" rel=\"stylesheet\">\n    <link href=\"styles.css\" rel=\"stylesheet\">\n\n\n    <h1>Welcome to Big Box Outlet Store - Where Quality Meets Savings!<\/h1>\n    <p>At Big Box Outlet Store, we're revolutionizing the way you shop for home appliances. As your go-to discount store, we offer a diverse range of top-tier, brand-name appliances, from the kitchen to the laundry room, and everything in between - all at unbeatable prices!<\/p>\n    \n    <h2>Your Budget-Friendly Kitchen Upgrade<\/h2>\n    <p>Dreaming of a kitchen makeover? Look no further. Discover our collection of recertified refrigerators, stoves, ovens, and dishwashers. Whether they're overstock, returns, or have minor cosmetic imperfections, each appliance is meticulously checked and recertified to ensure optimal performance. With us, you're not just saving money; you're investing in quality.<\/p>\n    \n    <h2>Reliable and Affordable Laundry Solutions<\/h2>\n    <p>Say goodbye to overpriced washers and dryers. At Big Box Outlet Store, we bring you reliable, efficient laundry appliances that fit your needs and your budget. Our recertified units provide the same durability and performance as new, with the bonus of amazing discounts.<\/p>\n    \n    <h2>Each Big Box Outlet Store location boasts a large variety of brand-name appliances.<\/h2>\n    <p>We source appliances from a variety of vendors. Our stock is always changing. You'll find name brands like: Whirlpool, Samsung, LG, GE Appliances, Frigidaire, Maytag, Bosch, KitchenAid, Electrolux, Miele, Kenmore, and more.<\/p>\n    \n    <img src=\"images\/image5.png\" alt=\"Image 5\" title=\"Image 5\">\n    <img src=\"images\/image3.png\" alt=\"Image 3\" title=\"Image 3\">\n    <img src=\"images\/image8.png\" alt=\"Image 8\" title=\"Image 8\">\n    <img src=\"images\/image2.png\" alt=\"Image 2\" title=\"Image 2\">\n    <img src=\"images\/image9.png\" alt=\"Image 9\" title=\"Image 9\">\n    <img src=\"images\/image7.png\" alt=\"Image 7\" title=\"Image 7\">\n    <img src=\"images\/image1.png\" alt=\"Image 1\" title=\"Image 1\">\n    <img src=\"images\/image4.png\" alt=\"Image 4\" title=\"Image 4\">\n    <img src=\"images\/image6.png\" alt=\"Image 6\" title=\"Image 6\">\n    \n    <p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality...<\/p>"
       }
     },
     "25dcd8db-1319-475f-a938-bcfa45546358": {
@@ -149,28 +146,25 @@
         "title": ""
       }
     },
-    "b29f7458-e1bf-4667-bca5-476111671e0f": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "",
-        "text": "<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<br\/><br\/><a href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\">Find your nearest store here<\/a><\/p><h1><strong>We believe in quality, affordability, and customer satisfaction.<\/strong><\/h1><p><strong>Unbeatable Prices<\/strong> - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p><p><strong>60-Day Warranty<\/strong> - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p><p><strong>Hassle-Free Returns<\/strong> - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p><p>Shop your local store for appliances today. <a href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\">Find your local store here<\/a><\/p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
     "main": {
       "type": "page",
       "disabled": true,
       "settings": {
       }
+    },
+    "bf74b3d7-e0a9-43ba-8737-3a5571a6bf22": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "",
+        "custom_html": "<div style=\"max-width: 900px; margin-left: 20px; margin-right: 20px; text-align: center;\">\n\n\n<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<\/p>\n\n<h1>We believe in quality, affordability, and customer satisfaction.<\/h1>\n<p>Unbeatable Prices - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p>\n<p>60-Day Warranty - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p>\n<p>Hassle-Free Returns - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p>\n<p>Shop your local store for appliances today. <a href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\">Find your local store here<\/a><\/p> <\/div>"
+      }
     }
   },
   "order": [
     "7db07776-9120-4c99-a182-aa6d951ec54a",
-    "85e89996-443d-46b7-b26a-67095d022b33",
+    "827ed72a-9e71-44d9-ac8b-fe0a6627a748",
     "25dcd8db-1319-475f-a938-bcfa45546358",
-    "b29f7458-e1bf-4667-bca5-476111671e0f",
-    "main"
+    "main",
+    "bf74b3d7-e0a9-43ba-8737-3a5571a6bf22"
   ]
 }
