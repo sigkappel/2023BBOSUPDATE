@@ -156,7 +156,7 @@
       "type": "dynamic-html",
       "settings": {
         "title": "",
-        "custom_html": "<div style=\"max-width: 1000px; padding-left: 20px; padding-right: 20px; margin-left: auto; margin-right: auto; text-align: center;\">\n\n\n<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<\/p>\n\n<h1>We believe in quality, affordability, and customer satisfaction.<\/h1>\n<p>Unbeatable Prices - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p>\n<p>60-Day Warranty - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p>\n<p>Hassle-Free Returns - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p>\n<p>Shop your local store for appliances today. <br><br><a class=\"button\" href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\">Find your local store here<\/a><\/p> <\/div>"
+        "custom_html": "<div style=\"max-width: 1000px; padding-left: 20px; padding-right: 20px; margin-left: auto; margin-right: auto; text-align: center;\">\n\n\n<p>Are you located in British Columbia, or Alberta Canada. We offer exceptional quality and unbeatable deals are within your reach.<\/p>\n\n<h1>We believe in quality, affordability, and customer satisfaction.<\/h1>\n<p>Unbeatable Prices - Our appliances are overstock, returns, or scratch-and-dent units that have been thoroughly inspected and recertified to ensure they meet the highest standards of performance and reliability at an unbeatable price.<\/p>\n<p>60-Day Warranty - Rest easy knowing that all our appliances come with a 60-day warranty. For added peace of mind, we also offer the option of an extended warranty.<\/p>\n<p>Hassle-Free Returns - We believe in our products and stand by our customers. If you're not entirely satisfied, our hassle-free return policy guarantees a smooth, worry-free shopping experience.<\/p>\n<p>Shop your local store for appliances today. <br><br><a class=\"button\" href=\"https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations\">Find your local store<\/a><\/p> <\/div>"
       }
     },
     "c920dc37-87f2-4312-83c4-32fdd39d604c": {
@@ -165,25 +165,25 @@
         "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-0": {
           "type": "testimonial",
           "settings": {
-            "star_rating": "4.5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "<p>Author's name<\/p>"
+            "star_rating": "5",
+            "text": "<p><em>... On Boxing Day I discovered the Big Box Outlet in Langley. They’ve got so much.If you want a good price on laundry sets and home appliances, check them out.<\/em><\/p>",
+            "author": "<p>Marivick<\/p>"
           }
         },
         "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-1": {
           "type": "testimonial",
           "settings": {
-            "star_rating": "4.5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "<p>Author's name<\/p>"
+            "star_rating": "5",
+            "text": "<p><em>Always a great experience coming here! Have found some really good items at amazing prices, excellent staff working there ... Definitely recommend stopping by if you’re in the area<\/em><\/p>",
+            "author": "<p>Sydney<\/p>"
           }
         },
         "template--19179275190584__c920dc37-87f2-4312-83c4-32fdd39d604c-1686017328fd8e14ce-2": {
           "type": "testimonial",
           "settings": {
             "star_rating": "4.5",
-            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.<\/p>",
-            "author": "<p>Author's name<\/p>"
+            "text": "<p>I had been to numerous local stores  to find the best dryer for my family while sticking to a budget. Rod went above and beyond in order to help me find a dryer; had it wrapped up, and loaded into my van. <\/p>",
+            "author": "<p>Lindsay<\/p>"
           }
         }
       },
