@@ -6,21 +6,21 @@
         "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-0": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/bright-modern-kitchen.jpg",
-            "title": "High-End Appliances Without the High-End Price Tag",
+            "background_image": "shopify:\/\/shop_images\/bbos-appliances-landing-page.jpg",
+            "title": "",
             "text": "",
             "color": "#ffffff",
-            "link": "https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations",
+            "link": "",
             "text_alignment": "center",
-            "button_one_label": "Visit Your Local Store",
+            "button_one_label": "",
             "button_one_link": "https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_color": "#000000",
-            "overlay_opacity": 29
+            "overlay_opacity": 4
           }
         },
         "template--19179275190584__7db07776-9120-4c99-a182-aa6d951ec54a-1684524571325c333f-1": {
