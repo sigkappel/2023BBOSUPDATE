@@ -25,6 +25,7 @@
         },
         "slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/23-06-07--23-0-13--FathersDay-webbanner.jpg",
             "title": "",
