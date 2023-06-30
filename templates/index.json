@@ -25,6 +25,7 @@
         },
         "slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/JuneOAMWebBanner1920x500.jpg",
             "title": "",
