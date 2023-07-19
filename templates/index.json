@@ -6,6 +6,26 @@
         "slide-2": {
           "type": "slide",
           "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-07-20--23-07-27--Hostess-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "shopify:\/\/blogs\/flyer\/23-07-20-23-07-27-hostess-with-the-mostest",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
+            "button_one_style": "secondary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
+        "0c8827fc-21da-4d2c-b4b0-f23cc19397a7": {
+          "type": "slide",
+          "settings": {
             "background_image": "shopify:\/\/shop_images\/23-07-19--ODS-WebBanner.png",
             "title": "",
             "text": "",
@@ -65,6 +85,7 @@
         },
         "slide-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image2.jpg",
             "title": "",
@@ -86,6 +107,7 @@
       },
       "block_order": [
         "slide-2",
+        "0c8827fc-21da-4d2c-b4b0-f23cc19397a7",
         "404e998b-94c9-4059-beff-ce6136265510",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
         "slide-1"
