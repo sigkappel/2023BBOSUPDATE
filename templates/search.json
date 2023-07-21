@@ -30,10 +30,56 @@
         "cta_label": "See More!",
         "cta_button_style": "secondary"
       }
+    },
+    "53bd449b-5586-4d63-9f02-c8ba10cb5558": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "template--18343924597048__53bd449b-5586-4d63-9f02-c8ba10cb5558-promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Discover-More-Instore-02_1216x830_cc864d3b-687a-4884-8078-805082ca1cae.webp",
+            "title": "There's always more to discover in-store",
+            "text": "Home essentials, furniture cookware, major appliances and more",
+            "color": "#1e1e1e",
+            "block_link": "shopify:\/\/pages\/big-box-outlet-store-locations",
+            "button_text": "Find Your Local Store",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "template--18343924597048__53bd449b-5586-4d63-9f02-c8ba10cb5558-promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Shop-Online-02_729x498_04348d83-c097-4c27-b998-9a99b59d3bfd.webp",
+            "title": "Shop our online inventory",
+            "text": "Exclusive online re-certified inventory posted daily, including live auctions and more.",
+            "color": "#ffffff",
+            "block_link": "shopify:\/\/collections\/all",
+            "button_text": "Shop Online",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "#ffffff",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "template--18343924597048__53bd449b-5586-4d63-9f02-c8ba10cb5558-promotion-1",
+        "template--18343924597048__53bd449b-5586-4d63-9f02-c8ba10cb5558-promotion-2"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "section_columns": 2,
+        "text_alignment": "top-left"
+      }
     }
   },
   "order": [
     "main",
-    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987"
+    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987",
+    "53bd449b-5586-4d63-9f02-c8ba10cb5558"
   ]
 }
