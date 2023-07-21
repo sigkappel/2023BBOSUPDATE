@@ -37,7 +37,10 @@
         </li>
       {% endfor %}
     {% else %}
- 
+      <li>
+        {{ 'search.general.no_results_title' | t: terms: sanitized_terms }}
+      </li>
+  
     
     {% endif %}
   </ul>
