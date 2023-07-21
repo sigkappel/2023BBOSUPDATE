@@ -17,7 +17,7 @@
       "settings": {
         "results_per_page_range": 24,
         "products_per_row": "4",
-        "enable_search_articles_pages": true
+        "enable_search_articles_pages": false
       }
     },
     "bba6eae1-8bfb-4bc5-ac0e-da23f7015987": {
