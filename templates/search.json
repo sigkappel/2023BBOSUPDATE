@@ -20,17 +20,6 @@
         "enable_search_articles_pages": false
       }
     },
-    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987": {
-      "type": "dynamic-featured-collection",
-      "settings": {
-        "title": "Checkout our newly listed product.",
-        "layout": "grid",
-        "collection": "all",
-        "product_count": 5,
-        "cta_label": "See More!",
-        "cta_button_style": "secondary"
-      }
-    },
     "53bd449b-5586-4d63-9f02-c8ba10cb5558": {
       "type": "dynamic-promo-grid",
       "blocks": {
@@ -75,11 +64,22 @@
         "section_columns": 2,
         "text_alignment": "top-left"
       }
+    },
+    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987": {
+      "type": "dynamic-featured-collection",
+      "settings": {
+        "title": "Checkout our newly listed product.",
+        "layout": "grid",
+        "collection": "all",
+        "product_count": 5,
+        "cta_label": "See More!",
+        "cta_button_style": "secondary"
+      }
     }
   },
   "order": [
     "main",
-    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987",
-    "53bd449b-5586-4d63-9f02-c8ba10cb5558"
+    "53bd449b-5586-4d63-9f02-c8ba10cb5558",
+    "bba6eae1-8bfb-4bc5-ac0e-da23f7015987"
   ]
 }
