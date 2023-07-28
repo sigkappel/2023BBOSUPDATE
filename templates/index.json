@@ -25,6 +25,7 @@
         },
         "slide-2": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/23-07-20--23-07-27--Hostess-webbanner.jpg",
             "title": "",
