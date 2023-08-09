@@ -3,7 +3,7 @@
     "main": {
       "type": "static-blog",
       "settings": {
-        "show_rss_link": true,
+        "show_rss_link": false,
         "show_date": true,
         "show_author": false,
         "show_excerpt": true,
