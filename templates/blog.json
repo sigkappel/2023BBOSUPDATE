@@ -1,1 +1,18 @@
-{"sections":{"main":{"type":"static-blog","settings":{"show_rss_link":true,"show_date":true,"show_author":false,"show_excerpt":true,"posts_per_page_range":9}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "static-blog",
+      "settings": {
+        "show_rss_link": true,
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true,
+        "featured_post": "flyer\/23-08-09-23-08-15-summer-clearance",
+        "posts_per_page_range": 6
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
