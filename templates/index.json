@@ -6,11 +6,11 @@
         "0c8827fc-21da-4d2c-b4b0-f23cc19397a7": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-08-090--23-08-15--Summer-Clearance-webbanner.jpg",
+            "background_image": "shopify:\/\/shop_images\/23-08-16--23-08-22--ReadySetSchoolWebBanner.jpg",
             "title": "",
             "text": "",
             "color": "#1d1d1d",
-            "link": "shopify:\/\/blogs\/flyer\/23-08-09-23-08-15-summer-clearance",
+            "link": "shopify:\/\/blogs\/flyer\/23-08-16-23-08-22-back-to-school",
             "text_alignment": "left",
             "button_one_label": "",
             "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
@@ -493,7 +493,6 @@
     },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
-      "disabled": true,
       "blocks": {
         "promotion-3": {
           "type": "promotion",
@@ -528,6 +527,7 @@
         "promotion-3",
         "promotion-4"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "section_height": "small",
@@ -538,7 +538,6 @@
     },
     "dynamic_featured_collection": {
       "type": "dynamic-featured-collection",
-      "disabled": true,
       "blocks": {
         "view-all-card": {
           "type": "view_all_card",
@@ -555,6 +554,7 @@
       "block_order": [
         "view-all-card"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "layout": "slideshow",
@@ -566,7 +566,6 @@
     },
     "dynamic_featured_product": {
       "type": "dynamic-featured-product",
-      "disabled": true,
       "blocks": {
         "title": {
           "type": "title",
@@ -590,6 +589,7 @@
         "price",
         "view-product-link"
       ],
+      "disabled": true,
       "settings": {
         "product": "",
         "gallery_aspect_ratio": "natural",
@@ -602,7 +602,6 @@
     },
     "dynamic_shoppable_image": {
       "type": "dynamic-shoppable-image",
-      "disabled": true,
       "blocks": {
         "hotspot-1": {
           "type": "hotspot",
@@ -652,6 +651,7 @@
         "hotspot-4",
         "hotspot-5"
       ],
+      "disabled": true,
       "settings": {
         "title": "Shoppable image",
         "image_width": "two-thirds",
@@ -667,7 +667,6 @@
     },
     "dynamic_featured_collection-2": {
       "type": "dynamic-featured-collection",
-      "disabled": true,
       "blocks": {
         "title-card": {
           "type": "title_card",
@@ -687,6 +686,7 @@
       "block_order": [
         "title-card"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "layout": "grid",
