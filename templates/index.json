@@ -67,8 +67,8 @@
           "type": "slide",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/23-08-19--23-08-22-EDM-SouthOpen-webbanner.jpg",
-            "title": "Slide",
-            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "title": "",
+            "text": "",
             "color": "#FFFFFF",
             "link": "shopify:\/\/blogs\/flyer\/23-08-19-23-08-22-edmonton-south-grand-opening",
             "text_alignment": "center",
@@ -78,7 +78,7 @@
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 50
           }
