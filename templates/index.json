@@ -62,12 +62,33 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
+        },
+        "670b809c-3290-452d-beed-b1a98be4d52f": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-08-19--23-08-22-EDM-SouthOpen-webbanner.jpg",
+            "title": "Slide",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#FFFFFF",
+            "link": "shopify:\/\/blogs\/flyer\/23-08-19-23-08-22-edmonton-south-grand-opening",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
         }
       },
       "block_order": [
         "0c8827fc-21da-4d2c-b4b0-f23cc19397a7",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1"
+        "slide-1",
+        "670b809c-3290-452d-beed-b1a98be4d52f"
       ],
       "settings": {
         "enable_autoplay": true,
