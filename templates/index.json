@@ -9,7 +9,7 @@
             "background_image": "shopify:\/\/shop_images\/23-08-19--23-08-22-EDM-SouthOpen-webbanner.jpg",
             "title": "",
             "text": "",
-            "color": "#FFFFFF",
+            "color": "#ffffff",
             "link": "shopify:\/\/blogs\/flyer\/23-08-19-23-08-22-edmonton-south-grand-opening",
             "text_alignment": "center",
             "button_one_label": "",
@@ -107,8 +107,8 @@
           "settings": {
             "icon": "icon-pin",
             "image": "shopify:\/\/shop_images\/Location_-_Black.png",
-            "title": "13 Western Canada Locations",
-            "text": "<p>With 11 across BC and 2 new locations in Alberta!<\/p>",
+            "title": "14 Western Canada Locations",
+            "text": "<p>With 12 across BC and 2 new locations in Alberta!<\/p>",
             "link": "shopify:\/\/pages\/big-box-outlet-store-locations"
           }
         },
