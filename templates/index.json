@@ -3,6 +3,27 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
+        "0c8827fc-21da-4d2c-b4b0-f23cc19397a7": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-08-230--23-08-29--FallRefresh-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#1d1d1d",
+            "link": "shopify:\/\/blogs\/flyer\/23-08-23-23-08-29-refresh-after-summer",
+            "text_alignment": "left",
+            "button_one_label": "",
+            "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
+            "button_one_style": "secondary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 4
+          }
+        },
         "670b809c-3290-452d-beed-b1a98be4d52f": {
           "type": "slide",
           "settings": {
@@ -21,27 +42,6 @@
             "show_overlay": false,
             "overlay_color": "#000000",
             "overlay_opacity": 50
-          }
-        },
-        "0c8827fc-21da-4d2c-b4b0-f23cc19397a7": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-08-16--23-08-22--ReadySetSchoolWebBanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#1d1d1d",
-            "link": "shopify:\/\/blogs\/flyer\/23-08-16-23-08-22-back-to-school",
-            "text_alignment": "left",
-            "button_one_label": "",
-            "button_one_link": "shopify:\/\/blogs\/flyer\/23-05-19-23-05-21-chilliwack-tent-sale",
-            "button_one_style": "secondary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 4
           }
         },
         "6258dd19-0750-4546-a56f-12d80ba86d1f": {
@@ -86,8 +86,8 @@
         }
       },
       "block_order": [
-        "670b809c-3290-452d-beed-b1a98be4d52f",
         "0c8827fc-21da-4d2c-b4b0-f23cc19397a7",
+        "670b809c-3290-452d-beed-b1a98be4d52f",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
         "slide-1"
       ],
