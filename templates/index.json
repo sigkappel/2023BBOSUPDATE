@@ -25,6 +25,7 @@
         },
         "670b809c-3290-452d-beed-b1a98be4d52f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/23-08-28--23-08-29--OAM-webbanner.jpg",
             "title": "",
