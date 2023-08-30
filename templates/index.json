@@ -87,7 +87,7 @@
           "type": "slide",
           "settings": {
             "background_image": "shopify:\/\/shop_images\/NewWestAnnouncement-webbanner.jpg",
-            "title": "Slide",
+            "title": "",
             "text": "",
             "color": "#FFFFFF",
             "link": "shopify:\/\/pages\/new-westminster-location",
