@@ -23,26 +23,6 @@
             "overlay_opacity": 4
           }
         },
-        "c0b033de-8b29-4873-954b-8b83dcaf6bd7": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-09-08--23-09-10-VERNON-TentSale-webbanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#ffffff",
-            "link": "shopify:\/\/blogs\/flyer\/23-09-08-23-09-10-vernon-tent-sale",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 1
-          }
-        },
         "c0333011-2f8b-4d5e-9fbb-924d458634d9": {
           "type": "slide",
           "settings": {
@@ -102,14 +82,35 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
+        },
+        "c0b033de-8b29-4873-954b-8b83dcaf6bd7": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-09-08--23-09-10-VERNON-TentSale-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#ffffff",
+            "link": "shopify:\/\/blogs\/flyer\/23-09-08-23-09-10-vernon-tent-sale",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 1
+          }
         }
       },
       "block_order": [
         "0c8827fc-21da-4d2c-b4b0-f23cc19397a7",
-        "c0b033de-8b29-4873-954b-8b83dcaf6bd7",
         "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1"
+        "slide-1",
+        "c0b033de-8b29-4873-954b-8b83dcaf6bd7"
       ],
       "settings": {
         "enable_autoplay": true,
