@@ -82,13 +82,34 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
+        },
+        "90cd4f3d-2811-4a0d-a60d-e2e93ec60df2": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/AB-23-09-23--23-09-26-AlbertOpen-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#FFFFFF",
+            "link": "shopify:\/\/blogs\/flyer\/23-09-23-23-09-26-albertopen",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
         }
       },
       "block_order": [
         "0c8827fc-21da-4d2c-b4b0-f23cc19397a7",
         "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1"
+        "slide-1",
+        "90cd4f3d-2811-4a0d-a60d-e2e93ec60df2"
       ],
       "settings": {
         "enable_autoplay": true,
