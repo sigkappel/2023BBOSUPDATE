@@ -102,6 +102,26 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
+        },
+        "e30d39fb-fb12-4897-9fc9-ceb43495eb98": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/23-09-25--23-09-26-OAM-webbanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#FFFFFF",
+            "link": "shopify:\/\/blogs\/flyer\/23-09-25-23-09-26-oam",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
         }
       },
       "block_order": [
@@ -109,7 +129,8 @@
         "90cd4f3d-2811-4a0d-a60d-e2e93ec60df2",
         "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1"
+        "slide-1",
+        "e30d39fb-fb12-4897-9fc9-ceb43495eb98"
       ],
       "settings": {
         "enable_autoplay": true,
