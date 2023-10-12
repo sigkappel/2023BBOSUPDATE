@@ -1,11 +1,8 @@
-:root {
-    --blue: steelblue;
-    --white: #fff;
-}
+
 .flx-button {
     font-weight: bold;
-    background: var(--blue);
-    color: var(--white);
+    background: #003da6;
+    color: #ffffff;
     padding: 0.75rem 1.75rem;
     margin-bottom: 1rem;
     border-radius: 5px;
