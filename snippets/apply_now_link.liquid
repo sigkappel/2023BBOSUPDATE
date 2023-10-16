@@ -10,9 +10,9 @@
       jQuery("#flx-financing-apply-btn").on("click", function () {
           var _url = "";
           flxSdk = new FlexitiSDK({
-              clientSecret: '3bdbd496-1ab9-4b61-bf6b-1e24ed724f08',
-              clientID: 'flexitidemo',
-              env: 'training'
+              clientSecret: '4b08f02b-64f1-417d-9231-f31c5241ca63',
+              clientID: 'bbos-prod',
+              env: 'prod'
           });
           flxSdk.OAuthLogin().then((res) => {
               flxSdk.financeNow({
