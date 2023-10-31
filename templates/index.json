@@ -107,8 +107,8 @@
           "settings": {
             "icon": "icon-pin",
             "image": "shopify:\/\/shop_images\/Location_-_Black.png",
-            "title": "15 Western Canada Locations",
-            "text": "<p>With 12 across BC and 3 new locations in Alberta!<\/p>",
+            "title": "16 Western Canada Locations",
+            "text": "<p>With 12 across BC and<br\/>4 locations in Alberta!<\/p>",
             "link": "shopify:\/\/pages\/big-box-outlet-store-locations"
           }
         },
@@ -274,8 +274,8 @@
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Locations-Okanagan.jpg",
-            "title": "Edmonton",
-            "text": "3 Locations",
+            "title": "Alberta",
+            "text": "4 Locations",
             "color": "#ffffff",
             "block_link": "https:\/\/bigboxoutletstore.ca\/pages\/big-box-outlet-store-locations#locations-alberta",
             "button_text": "",
