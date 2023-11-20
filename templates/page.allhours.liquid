@@ -4,12 +4,11 @@
       {{ page.title }}
     </h1>
   </header>
-  
 
   {% if page.content != blank %}
     <div class="page-content rte">
       {{ heading_text }}
- 		{% render "bbos-store-hours" %}
+      {% render 'bbos-store-hours-special' %}
       {{ page.content }}
     </div>
   {% endif %}
