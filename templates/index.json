@@ -3,6 +3,26 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
+        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify:\/\/shop_images\/BlackFridayWebBanner.jpg",
+            "title": "",
+            "text": "",
+            "color": "#FFFFFF",
+            "link": "shopify:\/\/collections\/canadian-black-friday",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98": {
           "type": "slide",
           "settings": {
@@ -82,34 +102,14 @@
             "overlay_color": "#000000",
             "overlay_opacity": 13
           }
-        },
-        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/BlackFridayWebBanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#FFFFFF",
-            "link": "shopify:\/\/collections\/canadian-black-friday",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
-          }
         }
       },
       "block_order": [
+        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3",
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98",
         "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
-        "slide-1",
-        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3"
+        "slide-1"
       ],
       "settings": {
         "enable_autoplay": true,
