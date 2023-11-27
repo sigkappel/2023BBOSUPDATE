@@ -3,13 +3,13 @@
     "dynamic_slideshow": {
       "type": "dynamic-slideshow",
       "blocks": {
-        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3": {
+        "b0ff9183-b3dc-46a1-a90e-3aa59f4cfca5": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/BlackFridayWebBanner.jpg",
+            "background_image": "shopify:\/\/shop_images\/Cyber_Monday_Web_Banner.jpg",
             "title": "",
             "text": "",
-            "color": "#ffffff",
+            "color": "#FFFFFF",
             "link": "shopify:\/\/collections\/canadian-black-friday",
             "text_alignment": "center",
             "button_one_label": "",
@@ -106,7 +106,7 @@
         }
       },
       "block_order": [
-        "d8c3bdb1-cc27-407a-aabb-6f6edeaea1c3",
+        "b0ff9183-b3dc-46a1-a90e-3aa59f4cfca5",
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98",
         "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
