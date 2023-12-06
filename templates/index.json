@@ -6,11 +6,11 @@
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/Nov_29-Dec_5_2023_Web_Banner.jpg",
+            "background_image": "shopify:\/\/shop_images\/23-12-06--23-12-17-12-Deals-of-Christmas.-webbanner.jpg",
             "title": "",
             "text": "",
             "color": "#ffffff",
-            "link": "shopify:\/\/blogs\/flyer\/23-11-29-23-12-05-toys-candy-bc",
+            "link": "shopify:\/\/blogs\/flyer\/23-12-06-23-12-17-12-deals-of-christmas-day-1",
             "text_alignment": "center",
             "button_one_label": "",
             "button_one_link": "",
@@ -45,7 +45,6 @@
         },
         "6258dd19-0750-4546-a56f-12d80ba86d1f": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/bbos-ecom-auction-webbanner_786bca12-81d7-4c26-8c08-e24d0e0e0768.jpg",
             "title": "",
