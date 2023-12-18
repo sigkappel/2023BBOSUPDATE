@@ -6,11 +6,11 @@
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98": {
           "type": "slide",
           "settings": {
-            "background_image": "shopify:\/\/shop_images\/23-12-06--23-12-17-12-Deals-of-Christmas.-webbanner.jpg",
+            "background_image": "shopify:\/\/shop_images\/23-12-18--23-12-24-12-Twas-Week-webbanner.jpg",
             "title": "",
             "text": "",
             "color": "#ffffff",
-            "link": "shopify:\/\/blogs\/flyer\/12-deals-of-christmas-2023",
+            "link": "shopify:\/\/blogs\/flyer\/23-12-18-23-12-24-twas-the-week-before-christmas",
             "text_alignment": "center",
             "button_one_label": "",
             "button_one_link": "",
@@ -25,7 +25,6 @@
         },
         "c0333011-2f8b-4d5e-9fbb-924d458634d9": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/NewWestAnnouncement-webbanner.jpg",
             "title": "",
@@ -66,7 +65,6 @@
         },
         "slide-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "background_image": "shopify:\/\/shop_images\/Big-Box-Outlets-Stores-Home-Hero-Image2.jpg",
             "title": "",
