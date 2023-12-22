@@ -23,27 +23,6 @@
             "overlay_opacity": 50
           }
         },
-        "c0333011-2f8b-4d5e-9fbb-924d458634d9": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "background_image": "shopify:\/\/shop_images\/NewWestAnnouncement-webbanner.jpg",
-            "title": "",
-            "text": "",
-            "color": "#ffffff",
-            "link": "shopify:\/\/pages\/new-westminster-location",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": false,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
-          }
-        },
         "6258dd19-0750-4546-a56f-12d80ba86d1f": {
           "type": "slide",
           "disabled": true,
@@ -88,7 +67,6 @@
       },
       "block_order": [
         "e30d39fb-fb12-4897-9fc9-ceb43495eb98",
-        "c0333011-2f8b-4d5e-9fbb-924d458634d9",
         "6258dd19-0750-4546-a56f-12d80ba86d1f",
         "slide-1"
       ],
